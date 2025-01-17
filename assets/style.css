@@ -20,6 +20,8 @@
     width: 100%;
 }
 
+/*-------------------------- image text */
+
 #hero-text {
     font-size: 130%;
     text-transform: uppercase;
@@ -38,7 +40,4 @@
     left: 100px;
 
     position: absolute;
-
 }
-
-/*-------------------------- image text */
