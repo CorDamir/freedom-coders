@@ -97,3 +97,32 @@ html,body {
     padding-top: 90px;
     text-align: center;
 }
+
+/*-------------------------- footer */
+footer > div {
+    background-color: brown;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+/* Use Bootstrap breakpoint for XL screens */
+@media screen and (min-width: 1200px) {
+
+    /* Fixes all portfolio cards being too tall on xl screens */
+    #categories .card-text {
+        min-height: auto;
+    }
+}
