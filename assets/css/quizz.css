@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap');
+
+:root {
+    /* fonts */
+    --title: "Permanent Marker", sans-serif;
+    --header-font: "Maven Pro" sans-serif;
+    --body-font: "Open Sans", sans-serif;
+
+}
