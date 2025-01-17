@@ -1,0 +1,44 @@
+/*-------------------------- General */
+
+/*-------------------------- Colors */
+
+/*-------------------------- Header */
+/*-------------------------- navbar */
+
+/*-------------------------- Hero image section */
+/*-------------------------- hero image*/
+#hero-image{
+    height: 700px;
+    width: 110%;
+    overflow: hidden;
+    position: relative;
+}
+
+.crowd-image {
+    object-fit: cover;
+    height: 700px;
+    width: 100%;
+}
+
+#hero-text {
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+
+    width: 600px;
+    height: 250px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(49, 49, 49, 0.7);
+
+    bottom: 25px;
+    left: 100px;
+
+    position: absolute;
+
+}
+
+/*-------------------------- image text */
