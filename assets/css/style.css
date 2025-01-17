@@ -13,6 +13,9 @@ html,body {
 
 /*-------------------------- Header */
 /*-------------------------- navbar */
+.navbar{
+    padding: 15px 10px 15px 10px
+}
 
 /*-------------------------- Hero image section */
 /*-------------------------- hero image*/
