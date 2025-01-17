@@ -53,3 +53,36 @@ html,body {
 
     position: absolute;
 }
+
+/*-------------------------- Take action section */
+
+#action-header{
+    padding-top: 90px;
+    text-align: center;
+}
+
+#action-subheader-container{
+    padding-top: 80px;
+}
+
+#take-action{
+    width: 400px;
+    height: 600px;
+}
+
+#action-subheader-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#action-subheader-text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#quiz-header{
+    padding-top: 90px;
+    text-align: center;
+}
