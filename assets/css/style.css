@@ -75,34 +75,10 @@ h6 {
 }
 
 /*-------------------------- stories section */
-.carousel-caption {
-    background-color: red;
-    width: 100%;
-    height: 100px;
-    inset: auto 0 0;
-    background: rgba(0, 0, 0, 0.5); 
-    padding: 15px;
-}
-
-.carousel-caption h5,
-.carousel-caption p,
-.carousel-caption a {
-    font-size: 70%;
-}
-
 .carousel-item img {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    /* background-position: 50% 70%; */
-}
-
-.carousel-item a {
-    margin-bottom: 10px;
-}
-
-.carousel-item p {
-    margin: 16px;
 }
 
 .carousel-item div {
@@ -110,7 +86,30 @@ h6 {
     flex-direction: column;
     align-items:center ;
     justify-content: center;
-    
+}
+
+.carousel-caption-container {
+    background: rgba(255, 102, 102, 0.8); /* Light red with transparency */
+    padding: 10px;
+    text-align: center;
+    color: white;
+    height: 150px;
+  }
+
+.carousel-text {
+    min-height: 80px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.carousel-indicators {
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    bottom: 30%;
+    left: 0;
+    height: 20px;
+    margin: 15px 0;
+    width: 100%;
 }
 /*-------------------------- image text */
 
