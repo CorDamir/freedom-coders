@@ -6,40 +6,51 @@
 
 **Overview**
 
-Insert paragraph here
+
+*"Raising Awareness, Restoring Freedom"* 
+
+Voices of Freedom aims to highlight the important and prevalent issue of Modern Slavery and Human Trafficking during **National Slavery and Human Trafficking Prevention Month 2025**.
+
+This is a website created for Code Institute's *'Code to Protect'* hackathon of January 2025, and is for educational purposes only. 
+
+Resources and information included are from available sources online and have been actively referenced in the README.
 
 ## Showcase
 
 ![Am I Responsive?](/# "Am I Responsive? Website Mockup")
 
-A **deployed link** to the live website can be found here -  [Voices of Freedom](#)
+A **deployed link** to the live website can be found here -  [Voices of Freedom](https://cordamir.github.io/freedom-coders/)
 
 ## Developers
 
 **Damir**
-[GitHub](#)
+[GitHub](https://github.com/CorDamir)
 
 **Tarah**
 [GitHub](https://github.com/tarahwaters) - [LinkedIn](https://www.linkedin.com/in/tarahwaters/)
 
 **Cass**
-[GitHub](#)
+[GitHub](https://github.com/CassJBeckford) - [LinkedIn](https://www.linkedin.com/in/tarahwaters/)
 
 **Tumelo**
-[GitHub](#)
+[GitHub](https://github.com/tumelo-maja)
 
 **Sam**
-[GitHub](#)
+[GitHub](https://github.com/sam2829)
 
 **Evanthia**
-[GitHub](#)
+[GitHub](https://github.com/evapalatou)
 
 **Prajakta**
-[GitHub](#)
+[GitHub](https://github.com/PrajaktaSarnaik)
 
 ## Product Vision
 
-Insert paragraph here
+**Voices of Freedom** was created to help prevent and spread awareness of **Modern Slavery and Human Trafficking** during **National Slavery and Human Trafficking Prevention Month 2025**.
+
+The website is a hub of educational resources that also inspires users to actively participate in the ongoing campaign.
+
+Users can learn more about the campaign and how prevalent an issue modern slavery is by engaging with the resource links and reading the facts and survivor stories showcased around the site. There is also the option for users to test their knowledge via the interactive quiz.
 
 ## Features (MVP)
 
