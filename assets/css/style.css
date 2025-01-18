@@ -235,6 +235,10 @@ h6 {
 .stats-images {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%; /* Ensures images are responsive */
+    max-width: 400px; /* Sets a consistent maximum width */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; 
 }
 
 .signs-section {
