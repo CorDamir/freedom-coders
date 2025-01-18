@@ -158,23 +158,21 @@ h6 {
 #take-action{
     width: 400px;
     height: 600px;
+    border-radius: 5px;
 }
 
 #action-subheader-image{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 #action-subheader-text{
     display: flex;
     align-items: center;
     text-align: center;
-}
-
-#quiz-header{
-    padding-top: 90px;
-    text-align: center;
+    text-transform: uppercase;
 }
 
 /* Use Bootstrap breakpoint for XL screens */
