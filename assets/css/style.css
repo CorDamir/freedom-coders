@@ -82,6 +82,10 @@ h6 {
     min-height: 125px;
 }
 
+.card-body h3 {
+    font-size: 95%;
+    font-weight: bold;
+}
 /*-------------------------- stories section */
 .carousel-item img {
     width: 100%;
@@ -221,12 +225,13 @@ h6 {
     text-transform: uppercase;
 }
 
-/*------------------------------------------Bootstrap breakpoint for XL screens */
-@media screen and (min-width: 1200px) {
+/*------------------------------------------Bootstrap breakpoint for laptop screens */
+@media screen and (min-width: 1024px) {
 
     /* Fixes all portfolio cards being too tall on xl screens */
-    #categories .card-text {
-        /* min-height: auto; */
+    .card-body h3 {
+        font-size: 95%;
+        font-weight: bold;
     }
 }
 
