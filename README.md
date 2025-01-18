@@ -144,11 +144,14 @@ The logo was created using an icon by Ainnul Rofiq via [Flaticon](https://www.fl
 
 ### **Colour Scheme**
 
-A colour scheme was developed using **Coloors** (see below for reference), which aligned with the main icons and purple theme. This was used as a basis for background colour choices (though not all were utilised), with an emphasis on consistency with the icon theme and neutrality.
+A colour scheme was developed using **Coloors** (see below for reference).
+In light of the serious tone we wanted to convey on this website given the theme, we chose red hues for a sense of urgency and call-to-action.
 
 **Colour scheme used as inspiration for styling**:
 
-![Colourscheme image from Coloors](docs/# "Purple, grey and blue colour gradient with associated HEX styling codes: 6864F7, 0E1081, 524ED2, BF9CF6, BBC1DA, 052A75")
+![Colourscheme image from Coloors](docs/voices-of-freedom-colour-palette.png "Black, yellow and red colour gradient with associated HEX styling codes: 230007, D7CF07, D98324, A40606, 5A0002")
+
+The colour scheme was tested on a mock website as part of the planning process via [Realtime Colors](https://www.realtimecolors.com/?colors=ffffff-230007-A40606-D98324-D7CF07&fonts=Inter-Inter).
 
 ## Tools and Technologies Used:
 
@@ -166,16 +169,38 @@ A colour scheme was developed using **Coloors** (see below for reference), which
 - [Coolors](https://coolors.co/) - used to generate a color palette for the website design
 - [TinyPNG](https://tinypng.com/) - converting and compressing images
 - [FontJoy](https://fontjoy.com/) - used to generate visually appealing font pairings for  the website
+- [Realtime Colors](https://www.realtimecolors.com/?colors=ffffff-230007-A40606-D98324-D7CF07&fonts=Inter-Inter) - used to test colour scheme on a mock website
 - [AmIResponsive?](https://ui.dev/amiresponsive?url=https://tarahwaters.github.io/milestone-project2/) - used to create a mockup of the website
 
 
 ## Credits
 - [Flaticon logo - 'independency' icon](https://www.flaticon.com/authors/ainnul-rofiq) by Ainnul Rofiq accessible through Flaticon, free for usage with credit reference
 
-## References
+## References 
 
-- Source: **Reference / Description here**. [Link - #]
-- Source: **Reference / Description here**. [Link - #]
-- Source: **Reference / Description here**. [Link - #]
-- Source: **Reference / Description here**. [Link - #]
-- Source: **Reference / Description here**. [Link - #]
+Victim's stories referenced on the website:
+ 
+- [Unseen.org - Katherine's story](https://www.unseenuk.org/case-study/katherines-story/)
+- [Unseen.org - Wayne’s story](https://www.unseenuk.org/case-study/waynes-story/)
+- [Unseen.org - Paula’s story](https://www.unseenuk.org/case-study/paulas-story/)
+- [Unseen.org - Franks story](https://www.unseenuk.org/case-study/franks-story/)
+- [Unseen.org - Aubree Alles story](https://polarisproject.org/survivor-story-aubree-alles/)
+- [PolarisProject.org - Three brother - debt bondage story](https://www.ijm.org/news/three-brothers-freed-from-slavery-over-fathers-debt)
+- [WorldsChildrensPrize.org - Child slavery story](https://worldschildrensprize.org/slavechildrensstories)
+-[AntiSlavery.org - Descend-based slavery Saidou story](https://www.antislavery.org/impact/stories/saidou/)
+- [SnowDropProject.co.uk - Other stories referenced](https://www.snowdropproject.co.uk/survivor-stories)
+
+Facts and figures quoted are from the following online references:
+
+- Source: **United Nations Office on Drugs and Crime (UNODC)**. [ [Link](https://www.unodc.org/unodc/en/human-trafficking/what-is-human-trafficking.html) ]
+- Source: **International Labour Organization (ILO)**. [ [Link](https://www.ilo.org/global/topics/forced-labour/lang--en/index.htm) ]
+- Source: **Anti-Slavery International - Bonded Labour**. [  [Link](https://www.antislavery.org/slavery-today/bonded-labour/) ]
+- Source: **United Nations Human Rights Office (OHCHR) - Slavery in Law**. [ [Link](https://www.ohchr.org/en/issues/slavery/srslavery/pages/slaveryinlaw.aspx) ]
+- Source: **United Nations Children's Fund (UNICEF) - Child Labour**. [ [Link](https://www.unicef.org/protection/child-labour) ]
+
+Apart from the direct references / links to other sources showcased on the deployed site, the following references were used for researching the topic.
+
+- **Modern Slavery Helpline** - reporting signs of abuse. [ [Link](https://www.modernslaveryhelpline.org/) ]
+- **Unseen** - helpline hero campaign. [ [Link](https://www.unseenuk.org/get-involved/helpline-hero/) ]
+- **StopTheTraffik** - spot the signs of modern slavery quiz. [ [Link](https://stopthetraffik.org/can-you-spotthesigns/) ]
+- **UK Gov - National Crime Agency** - Modern Slavery and Human Trafficking information and spotting the signs of modern slavery. [ [Link](https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/modern-slavery-and-human-trafficking) ]
