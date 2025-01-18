@@ -1,0 +1,15 @@
+div {
+    transition: all 1s ease-out;
+}
+
+.user-answer{
+    background-color: orange;
+}
+
+.correct-answer{
+    background-color: lightgreen;
+}
+
+.incorrect-answer{
+    background-color: indianred;
+}
