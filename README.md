@@ -176,10 +176,31 @@ The colour scheme was tested on a mock website as part of the planning process v
 ## Credits
 - [Flaticon logo - 'independency' icon](https://www.flaticon.com/authors/ainnul-rofiq) by Ainnul Rofiq accessible through Flaticon, free for usage with credit reference
 
-## References
+## References 
 
-- Source: **Reference / Description here**. [Link - #]
-- Source: **Reference / Description here**. [Link - #]
-- Source: **Reference / Description here**. [Link - #]
-- Source: **Reference / Description here**. [Link - #]
-- Source: **Reference / Description here**. [Link - #]
+Victim's stories referenced on the website:
+ 
+- [Unseen.org - Katherine's story](https://www.unseenuk.org/case-study/katherines-story/)
+- [Unseen.org - Wayne’s story](https://www.unseenuk.org/case-study/waynes-story/)
+- [Unseen.org - Paula’s story](https://www.unseenuk.org/case-study/paulas-story/)
+- [Unseen.org - Franks story](https://www.unseenuk.org/case-study/franks-story/)
+- [Unseen.org - Aubree Alles story](https://polarisproject.org/survivor-story-aubree-alles/)
+- [PolarisProject.org - Three brother - debt bondage story](https://www.ijm.org/news/three-brothers-freed-from-slavery-over-fathers-debt)
+- [WorldsChildrensPrize.org - Child slavery story](https://worldschildrensprize.org/slavechildrensstories)
+-[AntiSlavery.org - Descend-based slavery Saidou story](https://www.antislavery.org/impact/stories/saidou/)
+- [SnowDropProject.co.uk - Other stories referenced](https://www.snowdropproject.co.uk/survivor-stories)
+
+Facts and figures quoted are from the following online references:
+
+- Source: **United Nations Office on Drugs and Crime (UNODC)**. [ [Link](https://www.unodc.org/unodc/en/human-trafficking/what-is-human-trafficking.html) ]
+- Source: **International Labour Organization (ILO)**. [ [Link](https://www.ilo.org/global/topics/forced-labour/lang--en/index.htm) ]
+- Source: **Anti-Slavery International - Bonded Labour**. [  [Link](https://www.antislavery.org/slavery-today/bonded-labour/) ]
+- Source: **United Nations Human Rights Office (OHCHR) - Slavery in Law**. [ [Link](https://www.ohchr.org/en/issues/slavery/srslavery/pages/slaveryinlaw.aspx) ]
+- Source: **United Nations Children's Fund (UNICEF) - Child Labour**. [ [Link](https://www.unicef.org/protection/child-labour) ]
+
+Apart from the direct references / links to other sources showcased on the deployed site, the following references were used for researching the topic.
+
+- **Modern Slavery Helpline** - reporting signs of abuse. [ [Link](https://www.modernslaveryhelpline.org/) ]
+- **Unseen** - helpline hero campaign. [ [Link](https://www.unseenuk.org/get-involved/helpline-hero/) ]
+- **StopTheTraffik** - spot the signs of modern slavery quiz. [ [Link](https://stopthetraffik.org/can-you-spotthesigns/) ]
+- **UK Gov - National Crime Agency** - Modern Slavery and Human Trafficking information and spotting the signs of modern slavery. [ [Link](https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/modern-slavery-and-human-trafficking) ]
