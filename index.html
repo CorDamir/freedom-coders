@@ -40,6 +40,25 @@
   </head>
 
   <body>
+    <div id="ThankYouMessage">
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="exampleModalLabel">Get in Contact</h1>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+            id="send-button">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
       <!-- nav logo start-->
@@ -70,6 +89,7 @@
           <a class="nav-link" href="take-action.html">Take action</a>
         </div>
       </div>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Get in Contact</button>
     </nav>
 
     <!-- Header -->
@@ -341,6 +361,7 @@
     </footer>
 
     <!-- Bootstrap JS Script-->
+    <script src="./assets/jscript/modal-mechanics.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
