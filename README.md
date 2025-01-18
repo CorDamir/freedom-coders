@@ -151,6 +151,8 @@ In light of the serious tone we wanted to convey on this website given the theme
 
 ![Colourscheme image from Coloors](docs/voices-of-freedom-colour-palette.png "Black, yellow and red colour gradient with associated HEX styling codes: 230007, D7CF07, D98324, A40606, 5A0002")
 
+The colour scheme was tested on a mock website as part of the planning process via [Realtime Colors](https://www.realtimecolors.com/?colors=ffffff-230007-A40606-D98324-D7CF07&fonts=Inter-Inter).
+
 ## Tools and Technologies Used:
 
 - **HTML5**
@@ -167,6 +169,7 @@ In light of the serious tone we wanted to convey on this website given the theme
 - [Coolors](https://coolors.co/) - used to generate a color palette for the website design
 - [TinyPNG](https://tinypng.com/) - converting and compressing images
 - [FontJoy](https://fontjoy.com/) - used to generate visually appealing font pairings for  the website
+- [Realtime Colors](https://www.realtimecolors.com/?colors=ffffff-230007-A40606-D98324-D7CF07&fonts=Inter-Inter) - used to test colour scheme on a mock website
 - [AmIResponsive?](https://ui.dev/amiresponsive?url=https://tarahwaters.github.io/milestone-project2/) - used to create a mockup of the website
 
 
