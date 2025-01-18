@@ -104,6 +104,14 @@ h6 {
 .carousel-item p {
     margin: 16px;
 }
+
+.carousel-item div {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    
+}
 /*-------------------------- image text */
 
 #hero-text {
