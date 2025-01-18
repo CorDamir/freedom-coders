@@ -144,11 +144,12 @@ The logo was created using an icon by Ainnul Rofiq via [Flaticon](https://www.fl
 
 ### **Colour Scheme**
 
-A colour scheme was developed using **Coloors** (see below for reference), which aligned with the main icons and purple theme. This was used as a basis for background colour choices (though not all were utilised), with an emphasis on consistency with the icon theme and neutrality.
+A colour scheme was developed using **Coloors** (see below for reference).
+In light of the serious tone we wanted to convey on this website given the theme, we chose red hues for a sense of urgency and call-to-action.
 
 **Colour scheme used as inspiration for styling**:
 
-![Colourscheme image from Coloors](docs/# "Purple, grey and blue colour gradient with associated HEX styling codes: 6864F7, 0E1081, 524ED2, BF9CF6, BBC1DA, 052A75")
+![Colourscheme image from Coloors](docs/voices-of-freedom-colour-palette.png "Black, yellow and red colour gradient with associated HEX styling codes: 230007, D7CF07, D98324, A40606, 5A0002")
 
 ## Tools and Technologies Used:
 
