@@ -15,7 +15,7 @@ function testingSampleInit() {
         quizzQuestionData.correct = Math.round(Math.random() * 3);
 
         for (let y = 0; y < 4; y++) {
-            quizzQuestionData.answers.push("Sample answer " + i + "-" + y);
+            quizzQuestionData.answers.push("Sample answer as a big ass block of text yo" + i + "-" + y);
         }
 
         quizzQuestionsArray.push(quizzQuestionData);
@@ -64,7 +64,7 @@ function handleSubmit() {
     }
 
     let currentQuestion = selectedQuestions.shift();
-    let correct = quizzQuestionsArray[currentQuestion].correct;
+    let correct = quizzQuestionsArray[currentQuestion].correct + 1;
 
     if (answer == correct) {
         correctAnswers += 1;

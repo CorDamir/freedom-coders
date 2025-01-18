@@ -12,6 +12,39 @@
     <link rel="stylesheet" href="assets/css/quizz.css">
 </head>
 <body>
+    <div id="modal-container">
+        <div id="modal">
+            
+                <div id="question"></div>
+
+                <div id="answer-options-container">
+                    <div class="answer-option">
+                        <input type="radio" id="1" name="answers-radio">
+                        <label for="1" class="answer-text"></label> 
+                    </div>
+
+                    <div class="answer-option">
+                        <input type="radio" id="2" name="answers-radio">
+                        <label for="2" class="answer-text"></label>
+                    </div>
+
+                    <div class="answer-option">
+                        <input type="radio" id="3" name="answers-radio">
+                        <label for="3" class="answer-text"></label>
+                    </div>
+
+                    <div class="answer-option">
+                        <input type="radio" id="4" name="answers-radio">
+                        <label for="4" class="answer-text"></label>
+                    </div>
+                </div>
+                <div id="buttons-container">
+                    <button id="submit-button" onclick="handleSubmit()">Submit</button>
+                    <button id="next-button" onclick="handleNext()" disabled>Next</button>
+                </div>
+            
+        </div>
+    </div>
     <!-- Header navbar -->
 
     <header>
@@ -36,35 +69,7 @@
     </header>
 
     <main>
-        <div id="quizz-question-container">
-            <div id="question"></div>
-
-            <div id="answer-options-container">
-                <div class="answer-option">
-                    <input type="radio" id="1" name="answers-radio">
-                    <label for="1" class="answer-text"></label> 
-                </div>
-
-                <div class="answer-option">
-                    <input type="radio" id="2" name="answers-radio">
-                    <label for="2" class="answer-text"></label>
-                </div>
-
-                <div class="answer-option">
-                    <input type="radio" id="3" name="answers-radio">
-                    <label for="3" class="answer-text"></label>
-                </div>
-
-                <div class="answer-option">
-                    <input type="radio" id="4" name="answers-radio">
-                    <label for="4" class="answer-text"></label>
-                </div>
-            </div>
-
-            <button id="submit-button" onclick="handleSubmit()">Submit</button>
-            <button id="next-button" onclick="handleNext()" disabled>Next</button>
-        </div>
-
+        
     </main>
     <script src="./assets/jscript/quizz-mechanics.js"></script>
 </body>

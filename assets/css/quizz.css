@@ -2,14 +2,70 @@ div {
     transition: all 1s ease-out;
 }
 
-.user-answer{
-    background-color: orange;
-}
-
 .correct-answer{
     background-color: lightgreen;
 }
 
 .incorrect-answer{
     background-color: indianred;
+}
+
+#quizz-question-container {
+    /*border: 1px solid black;*/
+    min-width: 400px;
+    width: 50%;
+}
+
+#answer-options-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.answer-option {
+    flex: 40%;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    margin: 1px;
+}
+
+.answer-option > * {
+    margin: 5px;
+}
+
+.answer-option > input {
+    margin-right: 5px;
+}
+
+#question {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#buttons-container {
+    margin: 7px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#modal-container{
+    z-index: 1;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+#modal{
+    min-width: 400px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: white 0 0 10px; /* make it shine! */
 }
