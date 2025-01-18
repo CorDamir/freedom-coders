@@ -157,6 +157,7 @@ h6 {
 #footer-line-break {
     color: black;
     height: 5px;
+    margin: 0;
 }
 
 .footer-text {
@@ -165,8 +166,22 @@ h6 {
     font-weight: 400;
 }
 
+.footer-arrow-button {
+    border-radius: 50px;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+.footer-arrow-icon {
+    color: black;
+}
+
 .footer-links:hover {
     color: rgba(49, 49, 49, 0.7);
+}
+
+.footer-arrow-button:hover .footer-arrow-icon {
+    color: white;
 }
 /*-------------------------- Take action section */
 
@@ -182,23 +197,21 @@ h6 {
 #take-action{
     width: 400px;
     height: 600px;
+    border-radius: 5px;
 }
 
 #action-subheader-image{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 60px;
 }
 
 #action-subheader-text{
     display: flex;
     align-items: center;
     text-align: center;
-}
-
-#quiz-header{
-    padding-top: 90px;
-    text-align: center;
+    text-transform: uppercase;
 }
 
 /* Use Bootstrap breakpoint for XL screens */
@@ -208,4 +221,19 @@ h6 {
     #categories .card-text {
         min-height: auto;
     }
+}
+
+/* -------------------------------stats page */
+
+.stats-h3 {
+    font-weight: 700;
+}
+
+.stats-h5 {
+    font-weight: 500;
+}
+
+.stats-images {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
