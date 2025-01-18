@@ -73,6 +73,45 @@ h6 {
 #categories .card-text {
     min-height: 100px;
 }
+
+/*-------------------------- stories section */
+.carousel-caption {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    inset: auto 0 0;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 15px;
+}
+
+.carousel-caption h5,
+.carousel-caption p,
+.carousel-caption a {
+    font-size: 70%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    /* background-position: 50% 70%; */
+}
+
+.carousel-item a {
+    margin-bottom: 10px;
+}
+
+.carousel-item p {
+    margin: 16px;
+}
+
+.carousel-item div {
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    
+}
 /*-------------------------- image text */
 
 #hero-text {
