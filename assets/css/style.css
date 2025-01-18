@@ -73,6 +73,37 @@ h6 {
 #categories .card-text {
     min-height: 100px;
 }
+
+/*-------------------------- stories section */
+.carousel-caption {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    inset: auto 0 0;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 15px;
+}
+
+.carousel-caption h5,
+.carousel-caption p,
+.carousel-caption a {
+    font-size: 70%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    /* background-position: 50% 70%; */
+}
+
+.carousel-item a {
+    margin-bottom: 10px;
+}
+
+.carousel-item p {
+    margin: 16px;
+}
 /*-------------------------- image text */
 
 #hero-text {
@@ -160,26 +191,6 @@ h6 {
 #quiz-header{
     padding-top: 90px;
     text-align: center;
-}
-
-/*-------------------------- footer */
-footer > div {
-    background-color: brown;
-}
-
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-
-}
-
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
 }
 
 /* Use Bootstrap breakpoint for XL screens */
