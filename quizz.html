@@ -12,9 +12,13 @@
     <link rel="stylesheet" href="assets/css/quizz.css">
 </head>
 <body>
-    <div id="modal-container">
-        <div id="modal">
-            
+    <div id="modal-container" class="hidden">
+        <div id="modal-quiz-end" class="hidden">
+            You have scored <span></span>% on the quiz!
+            <span class="close-modal-button">X</span>
+        </div>
+
+        <div id="modal-quiz" class="hidden">
                 <div id="question"></div>
 
                 <div id="answer-options-container">
@@ -38,11 +42,13 @@
                         <label for="4" class="answer-text"></label>
                     </div>
                 </div>
+
                 <div id="buttons-container">
                     <button id="submit-button" onclick="handleSubmit()">Submit</button>
                     <button id="next-button" onclick="handleNext()" disabled>Next</button>
                 </div>
-            
+
+                <span class="close-modal-button">X</span>
         </div>
     </div>
     <!-- Header navbar -->
@@ -69,8 +75,9 @@
     </header>
 
     <main>
-        
+        <button id="quiz-start-button" onclick="startQuiz()">Take a quiz</button>
     </main>
+    <script src="./assets/jscript/quiz-data.js"></script>
     <script src="./assets/jscript/quizz-mechanics.js"></script>
 </body>
 </html>
