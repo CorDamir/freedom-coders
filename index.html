@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Voices of Freedom aims to raise awareness about Modern Slavery and Human Trafficking during National Slavery and Human Trafficking Prevention Month 2025. This educational site was created for Code Institute's 'Code to Protect' hackathon." />
+  <meta name="keywords" content="Modern Slavery, Human Trafficking, Awareness, Freedom, Code to Protect, Hackathon, Educational Website" />
+  <meta name="author" content="Code Institute Hackathon Team" />
   <title>Voices of Freedom</title>
   <!-- Bootstrap CSS Link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -26,55 +29,72 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
+          <img
+          src="assets/images/voices-freedom-logo.png"
+          alt="Voices of Freedom logo"
+          height="60">
           <h1 class="modal-title" id="exampleModalLabel">Get in Contact</h1>
         </div>
         <div class="modal-body">
           <h2>Report a concern</h2>
-          <ul>
-            In the UK, if you or somebody else is in immediate danger or in an emergency, contact 999 immediately. For
-            non-urgent reporting in the UK:
+          <h5 id="contact-text">
+            In the UK, if you or somebody else is in immediate danger or in an
+            emergency, contact 999 immediately. For non-urgent reporting in
+            the UK:
+          </h5>
+          <ul class="contact-text">
             <li>
               Modern Slavery Helpline, open 24 hours a day 08000 121 700
             </li>
-            <li>
-              Salvation Army 0800 808 3733
-            </li>
-            <li>
-              Police 101 (general reporting)
-            </li>
+            <li>Salvation Army 0800 808 3733</li>
+            <li>Police 101 (general reporting)</li>
             <li>
               Crimestoppers 0800 555 111 (anonymous reporting available)
             </li>
           </ul>
           <h2>Feedback or complaint?</h2>
-          <p>Fill out this form:</p>
-          <label for="subject">Subject</label>
-          <input id="subject" type="text" name="subject" required>
+          <p class="contact-text">Fill out this form:</p>
+          <input id="subject" type="text" name="subject" placeholder="Subject" />
 
           <br>
 
-          <label for="fname">Full name</label>
-          <input id="fname" type="text" name="full_name" required>
+          <input id="fname" type="text" name="full_name" placeholder="Full name" />
 
           <br>
 
-          <label for="email">Email</label>
-          <input id="email" type="email" name="email_address">
+          <input id="email" type="email" name="email_address" placeholder="Email"/>
 
           <br>
 
-          <label for="phone">Phone</label>
-          <input id="phone" type="text" name="phone_number" required>
+          <input id="phone" type="text" name="phone_number" placeholder="Phone"/>
 
           <br>
 
-          <label for="message">Message</label>
-          <textarea id="message" cols="50" rows="8" name="message" placeholder="Your Message"></textarea>
+          <textarea
+            id="message"
+            cols="50"
+            rows="8"
+            name="message"
+            placeholder="Your Message"
+          ></textarea>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-            id="send-button">Save changes</button>
+          <button
+            type="button"
+            class="btn btn-secondary contact-button"
+            data-dismiss="modal"
+          >
+            Close
+          </button>
+          <button
+            type="button"
+            class="btn btn-primary contact-button"
+            data-toggle="modal"
+            data-target="#exampleModal"
+            id="send-button"
+          >
+            Submit
+          </button>
         </div>
       </div>
     </div>
@@ -94,11 +114,11 @@
       <div class="navbar-nav">
         <a class="nav-link navbar-links active" href="index.html">Home</a>
         <a class="nav-link navbar-links" href="about.html">About Us</a>
-        <a class="nav-link navbar-links" href="stats.html">Stats and statistics</a>
+        <a class="nav-link navbar-links" href="stats.html">Statistics</a>
         <a class="nav-link navbar-links" href="take-action.html">Take action</a>
       </div>
     </div>
-    <button class="btn btn-outline-success my-2 my-sm-0" type="button" class="btn btn-primary" data-toggle="modal"
+    <button class="btn btn-outline-success my-2 my-sm-0 btn-contact" type="button" class="btn btn-primary" data-toggle="modal"
       data-target="#exampleModal">Get in Contact</button>
   </nav>
 
@@ -262,7 +282,7 @@
                   alt="Smiling woman headshot with a slight head tilt">
                 <div class="carousel-caption-container w-100 text-center">
                   <p class="carousel-text">Aubree* was trafficked for 10 years. Now, she helps others escape.</p>
-                  <a href="https://polarisproject.org/survivor-story-aubree-alles/" class="btn btn-primary"
+                  <a href="https://polarisproject.org/survivor-story-aubree-alles/" class="btn btn-outline-secondary btn-color"
                     target="_blank" rel="noopener">Read More</a>
                 </div>
               </div>
@@ -273,7 +293,7 @@
                   <p class="carousel-text">Katherine* was manipulated into trafficking through addiction and control but
                     is
                     now safe.</p>
-                  <a href="https://www.unseenuk.org/case-study/katherines-story/" class="btn btn-primary"
+                  <a href="https://www.unseenuk.org/case-study/katherines-story/" class="btn btn-outline-secondary btn-color"
                     target="_blank" rel="noopener">Read More</a>
                 </div>
               </div>
@@ -284,7 +304,7 @@
                   <p class="carousel-text">After enduring years of violence and exploitation, Paula* is finally finding
                     her
                     voice and safety.</p>
-                  <a href="https://www.unseenuk.org/case-study/paulas-story/" class="btn btn-primary" target="_blank"
+                  <a href="https://www.unseenuk.org/case-study/paulas-story/" class="btn btn-outline-secondary btn-color" target="_blank"
                     rel="noopener">Read
                     More</a>
                 </div>
@@ -295,7 +315,7 @@
                 <div class="carousel-caption-container w-100 text-center">
                   <p class="carousel-text">Lured to the UK with false promises, Frank* endured forced labor until he and
                     his son found safety.</p>
-                  <a href="https://www.unseenuk.org/case-study/franks-story/" class="btn btn-primary" target="_blank"
+                  <a href="https://www.unseenuk.org/case-study/franks-story/" class="btn btn-outline-secondary btn-color" target="_blank"
                     rel="noopener">Read
                     More</a>
                 </div>
@@ -307,7 +327,8 @@
                   <p class="carousel-text">*After 13 years of forced labor in a brick kiln, three brothers escaped debt
                     bondage with government support.</p>
                   <a href="https://www.ijm.org/news/three-brothers-freed-from-slavery-over-fathers-debt"
-                    class="btn btn-primary" target="_blank" rel="noopener">Read More</a>
+                    class="btn btn-outline-secondary btn-color" target="_blank" rel="noopener">Read More</a>
+
                 </div>
               </div>
               <div class="carousel-item">
@@ -316,8 +337,9 @@
                 <div class="carousel-caption-container w-100 text-center">
                   <p class="carousel-text">*After being enslaved, these children were rescued and now have a chance at a
                     real future.</p>
-                  <a href="https://worldschildrensprize.org/slavechildrensstories" class="btn btn-primary"
+                  <a href="https://worldschildrensprize.org/slavechildrensstories" class="btn btn-outline-secondary btn-color"
                     target="_blank" rel="noopener">Read More</a>
+
                 </div>
               </div>
             </div>
@@ -340,55 +362,79 @@
   </main>
   <!-- Footer -->
   <footer class="footer">
-    <div class="container">
-      <div class="row mt-3">
-        <!-- footer heading -->
-        <div class="col-sm-12 col-md-5 text-center mb-2">
-          <a href="index.html" class="navbar-brand">
-            <img src="assets/images/voices-freedom-logo.png" alt="Voices of Freedom logo" height="60" />Voices of
-            Freedom
-          </a>
+      <div class="container">
+        <div class="row mt-3">
+          <!-- footer heading -->
+          <div class="col-sm-12 col-lg-5 text-center mb-2">
+            <a href="index.html" class="navbar-brand">
+              <img
+                src="assets/images/voices-freedom-logo.png"
+                alt="Voices of Freedom logo"
+                height="60"
+              />Voices of Freedom
+            </a>
+          </div>
+          <!-- footer links -->
+          <div
+            class="col-sm-12 col-lg-7 d-flex flex-column flex-md-row justify-content-center text-center"
+          >
+            <a
+              class="footer-links mx-2 mx-md-3 mb-2 mb-md-0 mt-3"
+              href="index.html"
+            >
+              Home
+            </a>
+            <a
+              class="footer-links mx-2 mx-md-3 mb-2 mb-md-0 mt-3"
+              href="about.html"
+            >
+              About Us
+            </a>
+            <a
+              class="footer-links mx-2 mx-md-3 mb-2 mb-md-0 mt-3"
+              href="stats.html"
+            >
+              Statistics
+            </a>
+            <a
+              class="footer-links mx-2 mx-md-3 mb-2 mb-md-0 mt-3"
+              href="take-action.html"
+            >
+              Take Action
+            </a>
+            <a
+              class="footer-links mx-2 mx-md-3 mb-2 mb-md-0 mt-3"
+              data-toggle="modal"
+              data-target="#exampleModal"
+            >
+              Contact
+            </a>
+          </div>
         </div>
-        <!-- footer links -->
-        <div class="col-sm-12 col-md-7 d-flex flex-column flex-md-row justify-content-center text-center">
-          <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="index.html">
-            Home
+        <!-- footer line break -->
+        <div class="mt-4 text-center">
+          <a href="#navbar" class="btn btn-secondary footer-arrow-button" aria-label="Back to top">
+            <i class="fas fa-arrow-up footer-arrow-icon" aria-hidden="true"></i>
           </a>
-          <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="about.html">
-            About Us
-          </a>
-          <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="stats.html">
-            Stats & Statistics
-          </a>
-          <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="take-action.html">
-            Take Action
-          </a>
-          <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="#contact">
-            Contact
-          </a>
-        </div>
-      </div>
-      <!-- footer line break -->
-      <div class="mt-4 text-center">
-        <a href="#navbar" class="btn btn-secondary footer-arrow-button">
-          <i class="fas fa-arrow-up footer-arrow-icon"></i>
-        </a>
 
-        <hr id="footer-line-break" />
-      </div>
-      <div class="row text-center mt-4 mb-3">
-        <div class="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center">
-          <p class="footer-text mb-2 mb-md-0 mx-md-2 d-flex align-items-center">
-            © FreedomCoders 2025
-          </p>
-          <p class="footer-text mb-0 mx-md-2 d-flex align-items-center">
-            Website for educational purposes only
-          </p>
+          <hr id="footer-line-break" />
+        </div>
+        <div class="row text-center mt-4 mb-3">
+          <div
+            class="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center"
+          >
+            <p
+              class="footer-text mb-2 mb-md-0 mx-md-2 d-flex align-items-center"
+            >
+              © FreedomCoders 2025
+            </p>
+            <p class="footer-text mb-0 mx-md-2 d-flex align-items-center">
+              Website for educational purposes only
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-    </div>
-  </footer>
+    </footer>
   <!-- Bootstrap JS Script-->
   <script src="./assets/jscript/modal-mechanics.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

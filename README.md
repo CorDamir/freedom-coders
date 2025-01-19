@@ -36,7 +36,7 @@ A **deployed link** to the live website can be found here -  [Voices of Freedom]
 [GitHub](https://github.com/tumelo-maja)
 
 **Sam**
-[GitHub](https://github.com/sam2829)
+[GitHub](https://github.com/sam2829) - [LinkedIn](https://www.linkedin.com/in/samuel-scarisbrick/)
 
 **Evanthia**
 [GitHub](https://github.com/evapalatou)
@@ -204,3 +204,92 @@ Apart from the direct references / links to other sources showcased on the deplo
 - **Unseen** - helpline hero campaign. [ [Link](https://www.unseenuk.org/get-involved/helpline-hero/) ]
 - **StopTheTraffik** - spot the signs of modern slavery quiz. [ [Link](https://stopthetraffik.org/can-you-spotthesigns/) ]
 - **UK Gov - National Crime Agency** - Modern Slavery and Human Trafficking information and spotting the signs of modern slavery. [ [Link](https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/modern-slavery-and-human-trafficking) ]
+
+Images were taken from different resources:
+
+- **National Crime Agency.** [Link](https://www.nationalcrimeagency.gov.uk/threats/nsa-modern-slavery-and-human-trafficking-2024)
+
+- **Google Images**
+
+## Agile Development Process
+
+**Agile Methodology**
+
+Our project uses Agile methodology, a framework that enables us to respond to the unpredictability of building software through incremental, iterative work cadences, known as sprints. This approach fosters adaptability and encourages a rapid and flexible response to change, which is vital in the dynamic environment of software development.
+
+At the start of each sprint, our team engages in sprint planning to set the direction for our upcoming work, involving prioritization of the product backlog to address the most critical tasks first, defining clear sprint goals aligned with project milestones, and assigning tasks based on expertise and workload. Throughout development, we navigate trade-offs between scope, quality, time, and resources to maintain a balance between delivering high-quality work efficiently and managing priorities. Adopting Agile methodologies allows us to remain adaptable and focused, ensuring we meet user needs while striving for excellence.
+
+**Collaboration Tools** 
+
+The team used Slack where we regularly hosted meetings and to message in for quick collaboration purposes and Github projects to track ideas, User Stories, Bugs and Time plan.
+
+The Team used Slack team channel to ensure everyone stayed updated on project progress and discussions.
+
+The Team used Google Documents to post ideas, wireframes and to store any information gathered for the project. [GoogleDoc](https://docs.google.com/document/d/1YvAS-RXjQaYDmuNbehmJxcsoWKRscpwTQT9ZDY2BMoU/edit?tab=t.0#heading=h.lvi0usp9ejgi)
+
+## Deployment
+
+### Deployment to GitHub Pages
+
+This project was deployed on GitHub pages using the following steps:
+
+- From the project's repository, go to the settings tab.
+
+- From the left-hand-menu, select the pages tab.
+
+- Select the Main branch from under the Source section dropdown and click Save.
+
+- After a few minutes, a message will display to indicate a successful deployment and provide a Live link.
+
+### Local Deployment
+
+**Version Control**
+
+For version control the following steps were made:
+
+- If any changes were made to the Gitpod or VS Code project.
+
+- First files were made ready for commit with command - 'git add filename or git add .' second option to add all files.
+
+- To commit the changes using the following command - git commit -m "This is my commit" Note the brief description at the end of the command to make you aware of what changes have occurred.
+
+- To then move the changes to GitHub, use the following command - git push your branch name.
+
+- Create a pull request in GitHub which another member can then approve.
+
+- Update local workspace then with command git pull origin main.
+
+## Testing
+
+### Code Validation
+
+#### HTML
+
+We have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate our HTML files.
+
+| Page | W3C URL | Screenshot |
+| --- | --- | --- |
+|  Homepage | TBC | TBC |
+| About Us Page | TBC | TBC |
+| Statistics Page | TBC | TBC |
+| Take action Page | TBC | TBC |
+| Error 404 Page | TBC | TBC |
+
+#### CSS
+
+We have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate our CSS files.
+
+| File | Jigsaw URL | Screenshot |
+| --- | --- | --- |
+| style.css | TBC | TBC |
+| quizz.css | TBC | TBC |
+
+#### JAVASCRIPT
+
+We have used the recommended [JShint Validator](https://jshint.com) to validate our JS file.
+
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| modal-mechanics.js | to follow | to follow |
+| quiz-data.js | to follow | to follow |
+| quizz-mechannics.js | to follow | to follow |

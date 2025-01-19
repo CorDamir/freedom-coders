@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Voices of Freedom aims to raise awareness about Modern Slavery and Human Trafficking during National Slavery and Human Trafficking Prevention Month 2025. This educational site was created for Code Institute's 'Code to Protect' hackathon."
+    />
+    <meta
+      name="keywords"
+      content="Modern Slavery, Human Trafficking, Awareness, Freedom, Code to Protect, Hackathon, Educational Website"
+    />
+    <meta name="author" content="Code Institute Hackathon Team" />
     <title>Voices of Freedom</title>
     <!-- Bootstrap CSS Link -->
     <link
@@ -49,14 +58,20 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
+            <img
+            src="assets/images/voices-freedom-logo.png"
+            alt="Voices of Freedom logo"
+            height="60">
             <h1 class="modal-title" id="exampleModalLabel">Get in Contact</h1>
           </div>
           <div class="modal-body">
             <h2>Report a concern</h2>
-            <ul>
+            <h5 id="contact-text">
               In the UK, if you or somebody else is in immediate danger or in an
               emergency, contact 999 immediately. For non-urgent reporting in
               the UK:
+            </h5>
+            <ul class="contact-text">
               <li>
                 Modern Slavery Helpline, open 24 hours a day 08000 121 700
               </li>
@@ -67,28 +82,23 @@
               </li>
             </ul>
             <h2>Feedback or complaint?</h2>
-            <p>Fill out this form:</p>
-            <label for="subject">Subject</label>
-            <input id="subject" type="text" name="subject" required />
+            <p class="contact-text">Fill out this form:</p>
+            <input id="subject" type="text" name="subject" placeholder="Subject" />
 
-            <br />
+            <br>
 
-            <label for="fname">Full name</label>
-            <input id="fname" type="text" name="full_name" required />
+            <input id="fname" type="text" name="full_name" placeholder="Full name" />
 
-            <br />
+            <br>
 
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email_address" />
+            <input id="email" type="email" name="email_address" placeholder="Email"/>
 
-            <br />
+            <br>
 
-            <label for="phone">Phone</label>
-            <input id="phone" type="text" name="phone_number" required />
+            <input id="phone" type="text" name="phone_number" placeholder="Phone"/>
 
-            <br />
+            <br>
 
-            <label for="message">Message</label>
             <textarea
               id="message"
               cols="50"
@@ -100,19 +110,19 @@
           <div class="modal-footer">
             <button
               type="button"
-              class="btn btn-secondary"
+              class="btn btn-secondary contact-button"
               data-dismiss="modal"
             >
               Close
             </button>
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn btn-primary contact-button"
               data-toggle="modal"
               data-target="#exampleModal"
               id="send-button"
             >
-              Save changes
+              Submit
             </button>
           </div>
         </div>
@@ -145,7 +155,7 @@
           <a class="nav-link navbar-links" href="index.html">Home</a>
           <a class="nav-link navbar-links" href="about.html">About Us</a>
           <a class="nav-link navbar-links active" href="stats.html"
-            >Stats and statistics</a
+            >Statistics</a
           >
           <a class="nav-link navbar-links" href="take-action.html"
             >Take action</a
@@ -153,7 +163,7 @@
         </div>
       </div>
       <button
-        class="btn btn-outline-success my-2 my-sm-0"
+        class="btn btn-outline-success my-2 my-sm-0 btn-contact"
         type="button"
         class="btn btn-primary"
         data-toggle="modal"
@@ -170,7 +180,7 @@
     <!-- Main -->
     <main class="container">
       <!-- Intro paragraph -->
-      <section class="my-5 text-center">
+      <div class="my-5 text-center">
         <p>
           Human trafficking is a global crisis affecting over 27 million people
           each year, forcing individuals into exploitation through labor, sexual
@@ -182,7 +192,7 @@
           protecting vulnerable individuals and bringing perpetrators to
           justice.
         </p>
-      </section>
+      </div>
       <!-- stats sections -->
       <section class="my-5 text-center stats-section">
         <div class="row align-items-center">
@@ -395,7 +405,7 @@
       </section>
       <!-- take action section -->
       <section class="my-5 text-center py-3 px-2 take-action-section">
-        <row class="row mt-1">
+        <div class="row mt-1">
           <h2 class="mb-3 stats-h2">Take Action</h2>
           <div class="col-sm-12 col-md-8 offset-md-2 mb-2">
             <p>
@@ -409,10 +419,10 @@
               towards ending human trafficking.
             </p>
           </div>
-        </row>
-        <div class="row">
-          <a href="take-action.html">
-            <button type="button" class="btn btn-light mb-2">Take Action</button>
+        </div>
+        <div class="row justify-content-center">
+          <a href="take-action.html" class="btn btn-light mb-2 link-button">
+            Take Action
           </a>
         </div>
       </section>
@@ -455,12 +465,6 @@
             </a>
             <a
               class="footer-links mx-2 mx-md-3 mb-2 mb-md-0 mt-3"
-              href="quizz.html"
-            >
-              Quiz
-            </a>
-            <a
-              class="footer-links mx-2 mx-md-3 mb-2 mb-md-0 mt-3"
               href="take-action.html"
             >
               Take Action
@@ -476,8 +480,8 @@
         </div>
         <!-- footer line break -->
         <div class="mt-4 text-center">
-          <a href="#navbar" class="btn btn-secondary footer-arrow-button">
-            <i class="fas fa-arrow-up footer-arrow-icon"></i>
+          <a href="#navbar" class="btn btn-secondary footer-arrow-button" aria-label="Back to top">
+            <i class="fas fa-arrow-up footer-arrow-icon" aria-hidden="true"></i>
           </a>
 
           <hr id="footer-line-break" />
