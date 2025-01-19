@@ -16,7 +16,9 @@ html,body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    background-color: #230007;
+    color: #ffffff; 
 }
 
 h1,
