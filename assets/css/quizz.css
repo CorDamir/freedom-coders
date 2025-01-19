@@ -63,7 +63,6 @@
 
 #modal-quiz, #modal-quiz-end{
     user-select: none;
-    overflow: scroll;
     min-width: 300px;
     width: 50%;
     margin: auto;
@@ -73,7 +72,16 @@
     box-shadow: #cd5353 0 0 15px;
     position: relative;
     color: black;
+    max-height: 90vh;
+    overflow: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
 }
+
+#modal-quiz::-webkit-scrollbar,
+#modal-quiz-end::-webkit-scrollbar {
+    display: none;
+  }
 
 #modal-quiz-end {
     text-align: center;
