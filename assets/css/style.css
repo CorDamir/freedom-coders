@@ -51,7 +51,9 @@ h6 {
 
 .navbar-brand {
     font-family: var(--title);
+    color:#ffffff;
     font-weight: 300;
+    font-size: x-large;
 }
 
 .navbar-links {
