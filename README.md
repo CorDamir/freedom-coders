@@ -4,14 +4,21 @@
 
 ## Voices of Freedom
 
+![Voices of Freedom logo banner](docs/voices-of-freedom-banner.png)
+
 **Overview**
 
+Voices of Freedom is an educational platform developed by FreedomCoders to raise awareness during **National Slavery and Human Trafficking Prevention Month 2025.** 
 
-*"Raising Awareness, Restoring Freedom"* 
+With **over 50 million people** affected globally, modern slavery and human trafficking remain urgent issues. Yet many are unaware of how to recognise signs of exploitation or take action.
 
-Voices of Freedom aims to highlight the important and prevalent issue of Modern Slavery and Human Trafficking during **National Slavery and Human Trafficking Prevention Month 2025**.
+Our platform sheds light on this critical topic by providing engaging **learning materials**, compelling **survivor stories** that inspire hope and awareness, and **practical ways** for users to join the fight against modern slavery. 
 
-This is a website created for Code Institute's *'Code to Protect'* hackathon of January 2025, and is for educational purposes only. 
+Visitors can explore a resources hub on our **Take Action** page, featuring charities, authorities, and helplines offering support and guidance. An **informative statistics** page and an **interactive quiz** further enhance learning and encourage reflection. At Voices of Freedom, we are driven by a unified purpose: 
+
+    "Raising Awareness, Restoring Freedom."
+
+This is a website created for **Code Institute's *'Code to Protect'* hackathon of January 2025**, and is for educational purposes only. 
 
 Resources and information included are from available sources online and have been actively referenced in the README.
 
@@ -54,24 +61,45 @@ Users can learn more about the campaign and how prevalent an issue modern slaver
 
 ## Features (MVP)
 
-1.
+1. **Home Page** - 
+    
+    Key information displayed about the issue of modern slavery, what it is and how we each can get involved. A sliding carousel showcases survivor 'Freedom' stories that can be read in detail by clicking the links to external sources.
 
 
-2.
+2. **Statistics Page** - 
+
+    Global statistics, UK statistics information and guidance on how to spot signs of abuse - these are clearly displayed, alongside visuals, for users to learn more and engage with the topic thoroughly. A button link to the Take Action page is displayed below the main content to navigate users to a page where they can participate in the awareness campaign.
 
 
-3.
+3. **Take Action Page** - 
+    
+    An interactive quiz modal is featured on this page which allows users to test their knowledge on the topic of modern slavery. 
 
+    Users can receive instant feedback of their answers and overall score and reset the quiz to try again - 5 random questions (currently from 10 options) are selected as part of the quiz. 
+    
+    There is also an expandable accordion featured which gives more information on how users can get involved e.g. training courses / how to donate to relevant charities / where to sign up to newsletters.
+
+4. **Quiz Mechanics** -
+
+5. **About Us Page** - 
+
+    This page showcases an image of each team member that contributed to the Voices of Freedom project and their general role. Buttons link to the team members' Github / LinkedIn pages for users to connect with the development team.
+
+6. **Get in Contact** - 
+
+    The 'Get in Contact' button is accessible from the navbar of every page and also from the 'Contact' link via the footer. This opens up a modal Contact form where users can enter their details to provide feedback about the website. There are also signposts to appropriate UK authorities here that guide users to report a concern of modern slavery that they may have.
+
+    The contact form does not currently send the data anywhere, but a confirmation message is shown to the user ('Thank you for contacting us!'), if they are to click the Submit button.
 
 ## Features (post MVP)
 
-1.
+1. Add functionality for the Contact Form so that the team can receive messages from users regarding website feedback to help improve the site.
 
 
-2.
+2. Further improve accessibility options to make the website more inclusive.
 
 
-3.
+3. Continue to add more interactive elements to the site to make the content more engaging.
 
 
 ## **User Stories**
