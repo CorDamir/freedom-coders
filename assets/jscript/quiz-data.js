@@ -1,4 +1,4 @@
-var questionsRawData = [
+const questionsRawData = [
     "What percentage of human trafficking victims are children?",
     "Traffickers are most likely to be:",
     "How many people are currently in modern slavery?",
@@ -16,7 +16,7 @@ var questionsRawData = [
     "Which of the following is NOT a factor contributing to vulnerability to human trafficking?"
 ];
 
-var answersRawData = [
+const answersRawData = [
     "1 in 10",
     "1 in 6",
     "1 in 3",
@@ -68,6 +68,6 @@ var answersRawData = [
     "Gender inequality"
 ];
 
-var correctRawData = [
+const correctRawData = [
     3, 1, 2, 2, 1, 4, 1, 4, 2, 3
 ];
