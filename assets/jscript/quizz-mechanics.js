@@ -48,6 +48,7 @@ function displayQuestion(currentQuestion) {
 function endQuizz() {
     let modal = document.getElementById("modal-quiz-end");
     document.getElementById("modal-quiz").classList.toggle("hidden");
+    document.getElementById("1").checked = true;
 
     modal.firstElementChild.innerText = correctAnswers * 20;
     modal.classList.toggle("hidden");
