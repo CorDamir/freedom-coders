@@ -367,8 +367,42 @@ h6 {
     height: 40vh;
 }
 
+
+/* -------------------------------- Get in Contact  */
+
+.modal-dialog{
+    color: #A40606;
+}
+
+.contact-text{
+    color: #230007;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 80%;
+    border-color: #230007;
+}
+
+textarea {
+    width: 80%;
+    border-width: 2px;
+    border-style: inset;
+    border-color: #A40606;
+}
+
+.contact-button{
+    color: white;
+    background-color: #A40606;
+}
+
+.contact-button:hover{
+    color: #A40606;
+    background-color: white;
+
 /* -------------------------------- page link button */
 
 .link-button {
     width: 120px;
+
 }
