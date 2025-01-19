@@ -166,6 +166,10 @@ A Statistics page was also added to provided additional content, and it was base
 
 The logo was created using an icon by Ainnul Rofiq via [Flaticon](https://www.flaticon.com/authors/ainnul-rofiq)
 
+As the colour scheme developed, the logo and font colours were updated to provide better contrast ratios. Below is the final logo against the red background of the site:
+
+![Voices of Freedom Final Logo](docs/logo-red-background.png "Three arms raised in the air with a coloured banner behind.")
+
 
 ### **Typography**
 
