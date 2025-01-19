@@ -21,38 +21,47 @@ var answersRawData = [
     "1 in 6",
     "1 in 3",
     "1 in 2",
+
     "Family members",
     "Strangers",
     "Friends",
     "Business associates",
+
     "Less than 40 million",
     "Estimated 50 million",
     "Estimated 60 million",
     "More than 70 million",
+
     "85%",
     "70%",
     "55%",
     "45%",
+
     "Stronger psychological ties between a trafficker and victim",
     "Victim's fear of not being allowed back to their family",
     "Creation of positive childhood memories to their trafficker",
     "Tricking people in public spaces about their relationship",
+
     "China",
     "Brazil",
     "South Africa",
     "India",
+
     "Sex trafficking",
     "Forced labour in manufacturing",
     "Forced labour in agriculture",
     "Forced labour in private homes",
+
     "Sexual desire",
     "Feeling of power",
     "Accidental opportunity",
     "Profit",
+
     "10 to 12",
     "12 to 14",
     "16 to 18",
     "18 to 20",
+    
     "Poverty",
     "Political instability",
     "Education",
