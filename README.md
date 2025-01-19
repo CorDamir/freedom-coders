@@ -61,14 +61,35 @@ Users can learn more about the campaign and how prevalent an issue modern slaver
 
 ## Features (MVP)
 
-1.
+1. **Home Page** - 
+    
+    Key information displayed about the issue of modern slavery, what it is and how we each can get involved. A sliding carousel showcases survivor 'Freedom' stories that can be read in detail by clicking the links to external sources.
 
 
-2.
+2. **Statistics Page** - 
+
+    Global statistics, UK statistics information and guidance on how to spot signs of abuse - these are clearly displayed, alongside visuals, for users to learn more and engage with the topic thoroughly. A button link to the Take Action page is displayed below the main content to navigate users to a page where they can participate in the awareness campaign.
 
 
-3.
+3. **Take Action Page** - 
+    
+    An interactive quiz modal is featured on this page which allows users to test their knowledge on the topic of modern slavery. 
 
+    Users can receive instant feedback of their answers and overall score and reset the quiz to try again - 5 random questions (currently from 10 options) are selected as part of the quiz. 
+    
+    There is also an expandable accordion featured which gives more information on how users can get involved e.g. training courses / how to donate to relevant charities / where to sign up to newsletters.
+
+4. **Quiz Mechanics** -
+
+5. **About Us Page** - 
+
+    This page showcases an image of each team member that contributed to the Voices of Freedom project and their general role. Buttons link to the team members' Github / LinkedIn pages for users to connect with the development team.
+
+6. **Get in Contact** - 
+
+    The 'Get in Contact' button is accessible from the navbar of every page and also from the 'Contact' link via the footer. This opens up a modal Contact form where users can enter their details to provide feedback about the website. There are also signposts to appropriate UK authorities here that guide users to report a concern of modern slavery that they may have.
+
+    The contact form does not currently send the data anywhere, but a confirmation message is shown to the user ('Thank you for contacting us!'), if they are to click the Submit button.
 
 ## Features (post MVP)
 
