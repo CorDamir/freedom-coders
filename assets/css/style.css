@@ -12,11 +12,14 @@
 
 html,body {
     font-family: var(--body-font);
+    font-family: Maven Pro;
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    background-color: #230007;
+    color: #ffffff; 
 }
 
 h1,
@@ -35,16 +38,24 @@ h6 {
 
 
 /*-------------------------- Colors */
+.btn-color:hover {
+    background-color: #D98324 !important;
+}
 
 /*-------------------------- Header */
 /*-------------------------- navbar */
 .navbar{
-    padding: 15px 10px 15px 10px
+    padding: 15px 10px 15px 10px;
+    background-color: #A40606 !important; 
 }
 
 .navbar-brand {
     font-family: var(--title);
     font-weight: 300;
+}
+
+.navbar-links {
+    color: white;
 }
 
 /*-------------------------- Hero image section */
@@ -152,7 +163,7 @@ h6 {
     padding-top: 25px;
     padding-bottom: 25px;
     width: 100%;
-    background-color: lightgray;
+    background-color: #A40606;
 }
 
 #footer-heading {
@@ -162,8 +173,8 @@ h6 {
 .footer-links {
     font-size: 16px;
     text-decoration: none;
-    color: rgba(49, 49, 49, 1);
     cursor: pointer;
+    color: rgb(255, 255, 255);
 }
 
 #footer-line-break {
@@ -174,7 +185,7 @@ h6 {
 
 .footer-text {
     font-size: 14px;
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: 400;
 }
 
