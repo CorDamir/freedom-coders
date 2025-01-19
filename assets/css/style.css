@@ -26,7 +26,7 @@ body {
 h1,
 h2 {
     font-family: var(--header-font);
-    font-weight: 300;
+    font-weight: 900;
 }
 
 h3,
@@ -217,6 +217,10 @@ header {
 
 .footer-arrow-button:hover {
     background-color: #230007;
+}
+
+.footer-navbar-brand:hover {
+    color: #230007;
 }
 
 /*-------------------------- Take action section */
