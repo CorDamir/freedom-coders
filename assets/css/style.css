@@ -85,8 +85,7 @@ h6 {
     margin-bottom: 20px;
 }
 
-#about p {
-    background-color: #A40606;
+#about-intro p {
     margin-bottom: 20px;
 }
 
@@ -251,23 +250,23 @@ h6 {
 /*------------------------------------------Bootstrap breakpoint for tablet screens */
 @media screen and (min-width: 768px) {
 
-    /* Adjust the about image */
+    /* About section in home */
     #about-intro {
-        width: 100%; /* Limit width for better readability */
+        width: 100%; 
         margin: 30px 0;
-        overflow: hidden; /* Ensures proper wrapping */
+        overflow: hidden;
       }
     
       #about-intro img {
         float: right;
-        width: 300px; /* Adjust image size */
-        margin-left: 20px; /* Space between text and image */
+        width: 300px; 
+        margin-left: 20px; 
         margin-bottom: 10px;
         height: 270px;
       }
     
       #about-intro p {
-        text-align: justify; /* Optional: improves text alignment */
+        text-align: justify; 
         margin-bottom: 30px;
         padding-bottom: 5px;
       }
@@ -283,7 +282,7 @@ h6 {
     }
 
     #about-intro img {
-        width: 300px; /* Adjust image size */
+        width: 300px;
         height: 340px;
         margin-bottom: 0;
       }
@@ -297,7 +296,7 @@ h6 {
 @media screen and (min-width: 1440px) {
 
     #about-intro img {
-        width: 420px; /* Adjust image size */
+        width: 420px; 
         height: 370px;
         margin-bottom: 0;
       }
