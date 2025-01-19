@@ -163,6 +163,7 @@ h6 {
     font-size: 16px;
     text-decoration: none;
     color: rgba(49, 49, 49, 1);
+    cursor: pointer;
 }
 
 #footer-line-break {
@@ -237,7 +238,7 @@ h6 {
 
 /* -------------------------------stats page */
 
-.stats-h3 {
+.stats-h2 {
     font-weight: 700;
 }
 
@@ -258,10 +259,17 @@ h6 {
     background-color: lightgray;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
 }
 
 .take-action-section {
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* -------------------------------- error page */
+
+.error-page {
+    height: 40vh;
 }
