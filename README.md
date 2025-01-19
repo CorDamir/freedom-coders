@@ -134,6 +134,12 @@ Users can learn more about the campaign and how prevalent an issue modern slaver
 
 10 - As a user, I can click to visit the Github pages for the developers that created the site, so that I can find out more about them and connect should I wish.
 
+### Epic - Main info / Statistics / Take Action
+
+11 - As a user, I want to see clear and reliable information about the topic of Modern Slavery and Human Trafficking.
+
+12 - As a user, I want to have access to more information and sources that are relevant to the topic, and support systems that are available to me.
+
 
 ## **Wireframes**
 
