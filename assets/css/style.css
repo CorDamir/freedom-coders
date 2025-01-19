@@ -299,6 +299,7 @@ h6 {
     height: 40vh;
 }
 
+
 /* -------------------------------- Get in Contact  */
 
 .modal-dialog{
@@ -330,4 +331,10 @@ textarea {
 .contact-button:hover{
     color: #A40606;
     background-color: white;
+
+/* -------------------------------- page link button */
+
+.link-button {
+    width: 120px;
+
 }
