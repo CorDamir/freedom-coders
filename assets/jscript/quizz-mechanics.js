@@ -46,7 +46,6 @@ function displayQuestion(currentQuestion) {
 }
 
 function endQuizz() {
-
     let modal = document.getElementById("modal-quiz-end");
     document.getElementById("modal-quiz").classList.toggle("hidden");
 
@@ -122,7 +121,7 @@ function startQuiz(){
     correctAnswers = 0;
 
     chooseRandomQuestions();
-    displayQuestion(selectedQuestions[0]);
+    handleNext();
 
     document.getElementById("modal-container").classList.toggle("hidden");
     document.getElementById("modal-quiz").classList.toggle("hidden");
