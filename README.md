@@ -204,3 +204,70 @@ Apart from the direct references / links to other sources showcased on the deplo
 - **Unseen** - helpline hero campaign. [ [Link](https://www.unseenuk.org/get-involved/helpline-hero/) ]
 - **StopTheTraffik** - spot the signs of modern slavery quiz. [ [Link](https://stopthetraffik.org/can-you-spotthesigns/) ]
 - **UK Gov - National Crime Agency** - Modern Slavery and Human Trafficking information and spotting the signs of modern slavery. [ [Link](https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/modern-slavery-and-human-trafficking) ]
+
+## Deployment
+
+### Deployment to GitHub Pages
+
+This project was deployed on GitHub pages using the following steps:
+
+- From the project's repository, go to the settings tab.
+
+- From the left-hand-menu, select the pages tab.
+
+- Select the Main branch from under the Source section dropdown and click Save.
+
+- After a few minutes, a message will display to indicate a successful deployment and provide a Live link.
+
+### Local Deployment
+
+**Version Control**
+
+For version control the following steps were made:
+
+- If any changes were made to the Gitpod or VS Code project.
+
+- First files were made ready for commit with command - 'git add filename or git add .' second option to add all files.
+
+- To commit the changes using the following command - git commit -m "This is my commit" Note the brief description at the end of the command to make you aware of what changes have occurred.
+
+- To then move the changes to GitHub, use the following command - git push your branch name.
+
+- Create a pull request in GitHub which another member can then approve.
+
+- Update local workspace then with command git pull origin main.
+
+## Testing
+
+### Code Validation
+
+#### HTML
+
+We have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate our HTML files.
+
+| Page | W3C URL | Screenshot |
+| --- | --- | --- |
+|  Homepage | TBC | TBC |
+| About Us Page | TBC | TBC |
+| Statistics Page | TBC | TBC |
+| Take action Page | TBC | TBC |
+| Error 404 Page | TBC | TBC |
+
+#### CSS
+
+We have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate our CSS files.
+
+| File | Jigsaw URL | Screenshot |
+| --- | --- | --- |
+| style.css | TBC | TBC |
+| quizz.css | TBC | TBC |
+
+#### JAVASCRIPT
+
+We have used the recommended [JShint Validator](https://jshint.com) to validate our JS file.
+
+| File | Screenshot | Notes |
+| --- | --- | --- |
+| modal-mechanics.js | to follow | to follow |
+| quiz-data.js | to follow | to follow |
+| quizz-mechannics.js | to follow | to follow |
