@@ -163,6 +163,13 @@ h6 {
     margin: 15px 0;
     width: 100%;
 }
+
+#names-alert {
+    font-size: 80%;
+    font-style: italic;
+    font-weight: lighter;
+}
+
 /*-------------------------- image text */
 
 #hero-text {
@@ -274,6 +281,48 @@ h6 {
 
 .accordian-btn{
     color: white;
+}
+
+
+/* -------------------------------stats page */
+
+.stats-h2 {
+    font-weight: 700;
+}
+
+.stats-h5 {
+    font-weight: 500;
+}
+
+.stats-images {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid white; 
+}
+
+.signs-section {
+    background-color: lightgray;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    color: black;
+}
+
+.take-action-section {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+}
+
+/* -------------------------------- error page */
+
+.error-page {
+    height: 40vh;
 }
 
 
