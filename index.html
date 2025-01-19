@@ -29,55 +29,72 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
+          <img
+          src="assets/images/voices-freedom-logo.png"
+          alt="Voices of Freedom logo"
+          height="60">
           <h1 class="modal-title" id="exampleModalLabel">Get in Contact</h1>
         </div>
         <div class="modal-body">
           <h2>Report a concern</h2>
-          <ul>
-            In the UK, if you or somebody else is in immediate danger or in an emergency, contact 999 immediately. For
-            non-urgent reporting in the UK:
+          <h5 id="contact-text">
+            In the UK, if you or somebody else is in immediate danger or in an
+            emergency, contact 999 immediately. For non-urgent reporting in
+            the UK:
+          </h5>
+          <ul class="contact-text">
             <li>
               Modern Slavery Helpline, open 24 hours a day 08000 121 700
             </li>
-            <li>
-              Salvation Army 0800 808 3733
-            </li>
-            <li>
-              Police 101 (general reporting)
-            </li>
+            <li>Salvation Army 0800 808 3733</li>
+            <li>Police 101 (general reporting)</li>
             <li>
               Crimestoppers 0800 555 111 (anonymous reporting available)
             </li>
           </ul>
           <h2>Feedback or complaint?</h2>
-          <p>Fill out this form:</p>
-          <label for="subject">Subject</label>
-          <input id="subject" type="text" name="subject" required>
+          <p class="contact-text">Fill out this form:</p>
+          <input id="subject" type="text" name="subject" placeholder="Subject" />
 
           <br>
 
-          <label for="fname">Full name</label>
-          <input id="fname" type="text" name="full_name" required>
+          <input id="fname" type="text" name="full_name" placeholder="Full name" />
 
           <br>
 
-          <label for="email">Email</label>
-          <input id="email" type="email" name="email_address">
+          <input id="email" type="email" name="email_address" placeholder="Email"/>
 
           <br>
 
-          <label for="phone">Phone</label>
-          <input id="phone" type="text" name="phone_number" required>
+          <input id="phone" type="text" name="phone_number" placeholder="Phone"/>
 
           <br>
 
-          <label for="message">Message</label>
-          <textarea id="message" cols="50" rows="8" name="message" placeholder="Your Message"></textarea>
+          <textarea
+            id="message"
+            cols="50"
+            rows="8"
+            name="message"
+            placeholder="Your Message"
+          ></textarea>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
-            id="send-button">Save changes</button>
+          <button
+            type="button"
+            class="btn btn-secondary contact-button"
+            data-dismiss="modal"
+          >
+            Close
+          </button>
+          <button
+            type="button"
+            class="btn btn-primary contact-button"
+            data-toggle="modal"
+            data-target="#exampleModal"
+            id="send-button"
+          >
+            Submit
+          </button>
         </div>
       </div>
     </div>
