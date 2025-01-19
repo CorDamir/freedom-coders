@@ -20,14 +20,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <!-- Custom CSS stylesheet -->
+    <!-- Custom CSS stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- Favicon -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -45,9 +39,13 @@
       sizes="16x16"
       href="assets/favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
-
   <body>
     <div id="ThankYouMessage"></div>
     <div
@@ -153,12 +151,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link navbar-links" href="index.html">Home</a>
-          <a class="nav-link navbar-links active" href="about.html">About Us</a>
-          <a class="nav-link navbar-links" href="stats.html">Statistics</a>
-          <a class="nav-link navbar-links" href="take-action.html"
-            >Take action</a
-          >
+          <a class="nav-link active" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">About Us</a>
+          <a class="nav-link" href="stats.html">Stats and statistics</a>
+          <a class="nav-link" href="take-action.html">Take action</a>
         </div>
       </div>
       <button
@@ -172,159 +168,29 @@
       </button>
     </nav>
 
+    <!-- Header -->
+    <header id="hero" class="container mt-5 mb-5 text-center">
+      <h1>404 – Looks Like You’re Lost, But Let’s Find a Way Forward</h1>
+    </header>
     <!-- Main -->
-    <main>
-      <!-- Team Section -->
-      <section id="categories" class="container pb-4">
-        <div class="row">
-          <div class="col-12 text-center my-4">
-            <h2 class="display-5">Our Team</h2>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card mb-3 sharp-corners">
-              <img
-                src="assets/images/team/damir-bio.png"
-                class="card-img-top fixed-image"
-                alt="Damir."
-              />
-              <div class="card-body">
-                <h3 class="card-title">Damir</h3>
-                <p class="card-text">Scrum Lead and Development</p>
-                <a
-                  href="https://github.com/CorDamir"
-                  class="btn btn-outline-secondary btn-color"
-                  target="_blank"
-                  >Github</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img
-                src="https://ca.slack-edge.com/T0L30B202-U04AFFQCEAU-5f28472c6d17-512"
-                class="card-img-top fixed-image"
-                alt="Tarah."
-              />
-              <div class="card-body">
-                <h3 class="card-title">Tarah</h3>
-                <p class="card-text">Scrum Assist, Design and Development</p>
-                <a
-                  href="https://github.com/tarahwaters"
-                  class="btn btn-outline-secondary btn-color"
-                  target="_blank"
-                  >Github</a
-                >
-                <a
-                  href="https://www.linkedin.com/in/tarahwaters/"
-                  class="btn btn-outline-secondary btn-color"
-                  target="_blank"
-                  >LinkedIn</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img
-                src="https://ca.slack-edge.com/T0L30B202-U05AJCW77V0-ae8531472ea2-512"
-                class="card-img-top fixed-image"
-                alt="Sam."
-              />
-              <div class="card-body">
-                <h3 class="card-title">Sam</h3>
-                <p class="card-text">Reasearch and Development</p>
-                <a
-                  href="https://github.com/sam2829"
-                  class="btn btn-outline-secondary btn-color"
-                  target="_blank"
-                  >Github</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img
-                src="https://avatars.githubusercontent.com/u/174422922?v=4"
-                class="card-img-top fixed-image"
-                alt="Evanthia."
-              />
-              <div class="card-body">
-                <h3 class="card-title">Evanthia</h3>
-                <p class="card-text">Design and Development</p>
-                <a
-                  href="https://github.com/evapalatou"
-                  class="btn btn-outline-secondary btn-color"
-                  target="_blank"
-                  >Github</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img
-                src="https://ca.slack-edge.com/T0L30B202-U077J8ZFTJN-d13f38cd8742-512"
-                class="card-img-top fixed-image"
-                alt="Cass."
-              />
-              <div class="card-body">
-                <h3 class="card-title">Cass</h3>
-                <p class="card-text">Research and Development</p>
-                <a
-                  href="https://github.com/CassJBeckford"
-                  class="btn btn-outline-secondary btn-color"
-                  target="_blank"
-                  >Github</a
-                >
-                <a
-                  href="https://www.linkedin.com/in/cass-beckford-30b8a5241/"
-                  class="btn btn-outline-secondary btn-color"
-                  target="_blank"
-                  >LinkedIn</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img
-                src="https://ca.slack-edge.com/T0L30B202-U05C3H25KQU-cc431f7c1e38-512"
-                class="card-img-top fixed-image"
-                alt="Tumelo."
-              />
-              <div class="card-body">
-                <h3 class="card-title">Tumelo</h3>
-                <p class="card-text">Research and Development</p>
-                <a
-                  href="https://github.com/tumelo-maja"
-                  class="btn btn-outline-secondary btn-color"
-                  target="_blank"
-                  >Github</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card mb-3">
-              <img
-                src="https://ca.slack-edge.com/T0L30B202-U07SNGV3J05-50b0204d03b1-512"
-                class="card-img-top fixed-image"
-                alt="Prajakta."
-              />
-              <div class="card-body">
-                <h3 class="card-title">Prajakta</h3>
-                <p class="card-text">Research and Design</p>
-                <a
-                  href="https://github.com/PrajaktaSarnaik"
-                  class="btn btn-outline-secondary btn-color"
-                  target="_blank"
-                  >Github</a
-                >
-              </div>
-            </div>
-          </div>
+    <main class="container error-page text-center">
+      <section>
+        <div class="row mt-5">
+          <p>
+            We’re sorry, the page you’re looking for doesn’t exist or may have
+            been moved. But your visit here can still make an impact!
+          </p>
+        </div>
+        <div class="row mt-2 mb-5">
+          <p>
+            Please return to the home page to explore your options and learn
+            more about the fight against human trafficking.
+          </p>
+        </div>
+        <div class="row my-5">
+          <a href="index.html">
+            <button type="button" class="btn btn-light mb-2">Homepage</button>
+          </a>
         </div>
       </section>
     </main>
@@ -403,9 +269,8 @@
         </div>
       </div>
     </footer>
-
-    <!-- Bootstrap JS Script-->
     <script src="./assets/jscript/modal-mechanics.js"></script>
+    <!-- Bootstrap JS Script-->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
