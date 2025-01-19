@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Voices of Freedom aims to raise awareness about Modern Slavery and Human Trafficking during National Slavery and Human Trafficking Prevention Month 2025. This educational site was created for Code Institute's 'Code to Protect' hackathon."
+    />
+    <meta
+      name="keywords"
+      content="Modern Slavery, Human Trafficking, Awareness, Freedom, Code to Protect, Hackathon, Educational Website"
+    />
+    <meta name="author" content="Code Institute Hackathon Team" />
     <title>Voices of Freedom</title>
     <!-- Bootstrap CSS Link -->
     <link
@@ -147,9 +156,7 @@
           <div class="navbar-nav">
             <a class="nav-link navbar-links" href="index.html">Home</a>
             <a class="nav-link navbar-links" href="about.html">About Us</a>
-            <a class="nav-link navbar-links" href="stats.html"
-              >Statistics</a
-            >
+            <a class="nav-link navbar-links" href="stats.html">Statistics</a>
             <a class="nav-link navbar-links active" href="take-action.html"
               >Take action</a
             >
@@ -171,44 +178,78 @@
         <h1 id="action-header">Take action</h1>
       </div>
 
-      <div id="action-subheader-container" class="container">
-        <div id="action-subheader" class="row">
-          <div id="action-subheader-image" class="col">
-            <img
-              id="take-action"
-              src="assets/images/take-action.jpg"
-              alt="take-action"
-            />
-          </div>
-          <div id="action-subheader-text" class="col">
-            <p>
-              Participate in National Slavery and Human Trafficking Prevention
-              Month 2025. Everyone has a part to play and there are so many ways
-              to get involved. Tackling an issue as big as modern slavery can
-              sometimes feel overwhelming but taking the simple step to stay
-              informed can help change lives and end slavery.
-            </p>
+
+        <div id="action-subheader-container" class="container">
+          <div id="action-subheader" class="row">
+            <div id="action-subheader-image" class="col">
+              <div class="card" style="width: 25rem;">
+                <img src="assets/images/take-action.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Stay informed</h5>
+                  <p class="card-text">Ending Human Trafficking and Slavery start with understanding the vulnerability of victims.
+                    Staying knowledgable and up-to-date on ... is the first step you can take to prevent further Trafficking </p>
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="button" class="btn btn-primary" data-toggle="modal" data-target="">Take our Quiz</button>
+                </div>
+              </div>
+            </div>
+            <div id="action-subheader-text" class="col">
+                <p>
+                  Participate in National Slavery and Human Trafficking Prevention Month 2025. 
+                  Everyone has a part to play and there are so many ways to get involved. 
+                  Tackling an issue as big as modern slavery can sometimes feel overwhelming but taking the simple step to stay informed can help change lives and end slavery.
+                </p>
+            </div>
           </div>
         </div>
-      </div>
 
       <!-- Bootstrap accordian -->
 
-      <div class="accordion" id="accordionTakeAction">
-        <div class="card">
-          <div class="card-header" id="headingOne">
-            <h2 class="mb-0">
-              <button
-                class="btn btn-link btn-block text-left"
-                type="button"
-                data-toggle="collapse"
-                data-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                Get Involved:
-              </button>
-            </h2>
+
+        <div class="accordion" id="accordionTakeAction">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Get Involved:
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTakeAction">
+              <div class="card-body">
+                <ul>
+                  <li>Getting up to date on facts about human trafficking:</li>
+                    <ul>
+                    <li>
+                      Ensure youre knowledgeable on any myths and misconceptions -
+                    </li> 
+                      <ul>
+                        <li>Human traffickers only happens  in less developed countries (False)</li>
+                        <li>Its always a violent crime (False)</li> 
+                        <li>Only women and girls can be victims (False)</li> 
+                      </ul>
+                    </ul>
+                  <br>
+                  <li>Learn how to spot these crimes</li>
+                    <ul>
+                      <li><a href="#sport-the-signs">Sign of Human Trafficking</a></li> 
+                    </ul>
+                  <br>
+                  <li>Reporting suspected trafficking:</li>
+                    <ul>
+                      <li>
+                        Do not attempt to confront a suspected trafficker directly or alert a potential victim to any suspicions.
+                      </li>
+                      <li>
+                        Contact local law enforcement: 
+                      </li>
+                        <ul>
+                          <li>Metropolitan police</li> 
+                        </ul>
+                    </ul>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div
@@ -416,13 +457,32 @@
                 <br />
                 <li>Stop the traffik</li>
                 <ul>
-                  <li>
-                    Stop the traffik engages communities, businesses and
-                    governments to prevent human trafficking. They provide
-                    resources and tools for individuals and organisations to
-                    identify signs of trafficking and take action. Support Stop
-                    the traffik
-                  </li>
+
+                  <li>A21</li>
+                    <ul>
+                      <li>
+                        A21 operates a 24/7 helpline, supports survivors through aftercare programs and works relentlessly to raise awareness about 
+                        the realities of trafficking. A donation to A21 will help rescue and restore survivors, bringing them closer to a life of 
+                        freedom. <a href="https://www.a21.org/" target="_blank">Support A21</a>
+                      </li>
+                    </ul>
+                    <br>
+                  <li>Hope for justice</li>
+                    <ul>
+                      <li>
+                        Hope for justice is a charity dedicated to eradicating modern slavery and human trafficking. Their approach has four main 
+                        aspects: preventing exploitation, rescuing victims, restoring lives and reforming society.<a href="https://hopeforjustice.org/" target="_blank">Support Hope for justice</a>
+                      </li>
+                    </ul>
+                    <br>
+                  <li>Stop the traffik</li>
+                    <ul>
+                      <li>
+                        Stop the traffik engages communities, businesses and governments to prevent human trafficking. They provide resources and 
+                        tools for individuals and organisations to identify signs of trafficking and take action. <a href="https://stopthetraffik.org/" target="_blank">Support Stop the traffik</a>
+                      </li>
+                    </ul>
+
                 </ul>
               </ul>
             </div>
