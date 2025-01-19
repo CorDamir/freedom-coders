@@ -139,10 +139,10 @@ h6 {
 }
 
 .carousel-caption-container {
-    background: rgba(255, 102, 102, 0.8); /* Light red with transparency */
+    background: rgba(255, 255, 255, 0.8);
     margin: 0 ;
     text-align: center;
-    color: white;
+    color: black;
     height: 150px;
     border-bottom-right-radius: 0.375rem;
     border-bottom-left-radius: 0.375rem;
@@ -262,6 +262,18 @@ h6 {
 #take-action-sub-text{
     min-width: 400px;
     padding-bottom: 60px;
+}
+
+#accordionTakeAction{
+    padding: 0 30px 0 30px;
+}
+
+.card-header{
+    background-color: #A40606;
+}
+
+.accordian-btn{
+    color: white;
 }
 
 
