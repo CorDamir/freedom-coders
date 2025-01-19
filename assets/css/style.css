@@ -85,12 +85,20 @@ h6 {
 }
 
 /*---------------------------- about section*/
-#about-image {
+#about-intro img {
     background-position: 50% 70%;
     width: 100%;
     height: 300px;
     object-fit: cover;
+    order: 1;
+    margin-bottom: 20px;
+    border-radius: 0.375rem;
 }
+
+#about-intro p {
+    margin-bottom: 20px;
+}
+
 
 /*--------------------------- categories section */
 .fixed-image {
@@ -109,10 +117,18 @@ h6 {
     font-weight: bold;
 }
 /*-------------------------- stories section */
+
+.carousel-body {
+    border-radius: 0.375rem;
+    /* border: 3px solid yellowgreen; */
+    padding: 0;
+}
 .carousel-item img {
     width: 100%;
     height: 300px;
     object-fit: cover;
+    border-top-right-radius: 0.375rem;
+    border-top-left-radius: 0.375rem;
 }
 
 .carousel-item div {
@@ -128,6 +144,8 @@ h6 {
     text-align: center;
     color: white;
     height: 150px;
+    border-bottom-right-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
   }
 
 .carousel-text {
@@ -248,14 +266,64 @@ h6 {
     text-transform: uppercase;
 }
 
+
+/*------------------------------------------Bootstrap breakpoint for tablet screens */
+@media screen and (min-width: 768px) {
+
+    /* About section in home */
+    #about-intro {
+        width: 100%; 
+        margin: 30px 0;
+        overflow: hidden;
+      }
+    
+      #about-intro img {
+        float: right;
+        width: 300px; 
+        margin-left: 20px; 
+        margin-bottom: 10px;
+        height: 270px;
+      }
+    
+      #about-intro p {
+        text-align: justify; 
+        margin-bottom: 30px;
+        padding-bottom: 5px;
+      }
+}
+
 /*------------------------------------------Bootstrap breakpoint for laptop screens */
 @media screen and (min-width: 1024px) {
 
-    /* Fixes all portfolio cards being too tall on xl screens */
+    /* Adjust all categories cards */
     .card-body h3 {
         font-size: 95%;
         font-weight: bold;
     }
+
+    #about-intro img {
+        width: 300px;
+        height: 340px;
+        margin-bottom: 0;
+      }
+
+      #about-intro p {
+        margin-bottom: 20px;
+      }
+}
+
+/*------------------------------------------Bootstrap breakpoint for extra large screens */
+@media screen and (min-width: 1440px) {
+
+    #about-intro img {
+        width: 420px; 
+        height: 370px;
+        margin-bottom: 0;
+      }
+
+      #about-intro p {
+        margin-bottom: 20px;
+      }
 }
 
 /* -------------------------------stats page */
