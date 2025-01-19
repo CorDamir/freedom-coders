@@ -251,6 +251,10 @@ Images were taken from different resources:
 
 - **Google Images**
 
+- **Unsplashed**
+
+More details of the image sources can be found via our Design [Googledoc](https://docs.google.com/document/d/18TyiuB_eHoLyxC59aVLpWMi9PKFiX9MXydTDj1HbkuI/edit?tab=t.0#heading=h.pl46y8vtln40) through which we kept a record of our design sources.
+
 ## Agile Development Process
 
 **Agile Methodology**
