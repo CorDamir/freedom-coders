@@ -4,6 +4,8 @@
 
 ## Voices of Freedom
 
+![Voices of Freedom logo banner](docs/voices-of-freedom-banner.png)
+
 **Overview**
 
 
