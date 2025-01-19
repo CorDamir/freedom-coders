@@ -264,6 +264,10 @@ h6 {
     padding-bottom: 60px;
 }
 
+#accordionTakeAction{
+    padding: 0 30px 0 30px;
+}
+
 .card-header{
     background-color: #A40606;
 }
