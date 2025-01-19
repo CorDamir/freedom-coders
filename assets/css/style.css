@@ -62,6 +62,14 @@ h6 {
     width: 100%;
 }
 
+/*---------------------------- about section*/
+#about-image {
+    background-position: 50% 70%;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
 /*--------------------------- categories section */
 .fixed-image {
     width: 100%;
@@ -71,9 +79,13 @@ h6 {
 }
 
 #categories .card-text {
-    min-height: 100px;
+    min-height: 125px;
 }
 
+.card-body h3 {
+    font-size: 95%;
+    font-weight: bold;
+}
 /*-------------------------- stories section */
 .carousel-item img {
     width: 100%;
@@ -90,7 +102,7 @@ h6 {
 
 .carousel-caption-container {
     background: rgba(255, 102, 102, 0.8); /* Light red with transparency */
-    padding: 10px;
+    margin: 0 ;
     text-align: center;
     color: white;
     height: 150px;
@@ -213,12 +225,13 @@ h6 {
     text-transform: uppercase;
 }
 
-/* Use Bootstrap breakpoint for XL screens */
-@media screen and (min-width: 1200px) {
+/*------------------------------------------Bootstrap breakpoint for laptop screens */
+@media screen and (min-width: 1024px) {
 
     /* Fixes all portfolio cards being too tall on xl screens */
-    #categories .card-text {
-        min-height: auto;
+    .card-body h3 {
+        font-size: 95%;
+        font-weight: bold;
     }
 }
 

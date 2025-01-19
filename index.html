@@ -1,142 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Voices of Freedom</title>
-    <!-- Bootstrap CSS Link -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <!-- Font Awesome -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <!-- Custom CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
-  </head>
 
-  <body>
-    <div id="ThankYouMessage">
-    </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title" id="exampleModalLabel">Get in Contact</h1>
-          </div>
-          <div class="modal-body">
-            <h2>Report a concern</h2>
-            <ul>
-              In the UK, if you or somebody else is in immediate danger or in an emergency, contact 999 immediately. For non-urgent reporting in the UK:
-              <li>
-                Modern Slavery Helpline, open 24 hours a day 08000 121 700
-              </li>
-              <li>
-                Salvation Army 0800 808 3733
-              </li>
-              <li>
-                Police 101 (general reporting)
-              </li>
-              <li>
-                Crimestoppers 0800 555 111 (anonymous reporting available)
-              </li>
-            </ul>
-            <h2>Feedback or complaint?</h2>
-            <p>Fill out this form:</p>
-            <label for="subject">Subject</label>
-            <input id="subject" type="text" name="subject" required>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voices of Freedom</title>
+  <!-- Bootstrap CSS Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Custom CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+</head>
 
-            <br>
+<body>
+  <div id="ThankYouMessage">
+  </div>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="exampleModalLabel">Get in Contact</h1>
+        </div>
+        <div class="modal-body">
+          <h2>Report a concern</h2>
+          <ul>
+            In the UK, if you or somebody else is in immediate danger or in an emergency, contact 999 immediately. For
+            non-urgent reporting in the UK:
+            <li>
+              Modern Slavery Helpline, open 24 hours a day 08000 121 700
+            </li>
+            <li>
+              Salvation Army 0800 808 3733
+            </li>
+            <li>
+              Police 101 (general reporting)
+            </li>
+            <li>
+              Crimestoppers 0800 555 111 (anonymous reporting available)
+            </li>
+          </ul>
+          <h2>Feedback or complaint?</h2>
+          <p>Fill out this form:</p>
+          <label for="subject">Subject</label>
+          <input id="subject" type="text" name="subject" required>
 
-            <label for="fname">Full name</label>
-            <input id="fname" type="text" name="full_name" required>
+          <br>
 
-            <br>
+          <label for="fname">Full name</label>
+          <input id="fname" type="text" name="full_name" required>
 
-            <label for="email">Email</label>
-            <input id="email" type="email" name="email_address">
+          <br>
 
-            <br>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email_address">
 
-            <label for="phone">Phone</label>
-            <input id="phone" type="text" name="phone_number" required>
+          <br>
 
-            <br>
+          <label for="phone">Phone</label>
+          <input id="phone" type="text" name="phone_number" required>
 
-            <label for="message">Message</label>
-            <textarea id="message" cols="50" rows="8" name="message" placeholder="Your Message"></textarea>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+          <br>
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="50" rows="8" name="message" placeholder="Your Message"></textarea>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
             id="send-button">Save changes</button>
-          </div>
         </div>
       </div>
     </div>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-      <!-- nav logo start-->
-      <a href="index.html" class="navbar-brand">
-        <img
-          src="assets/images/voices-freedom-logo.png"
-          alt="Voices of Freedom logo"
-          height="60"
-        />Voices of Freedom
-      </a>
-      <!-- nav logo ends-->
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" href="index.html">Home</a>
-          <a class="nav-link" href="about.html">About Us</a>
-          <a class="nav-link" href="stats.html">Stats and statistics</a>
-          <a class="nav-link" href="take-action.html">Take action</a>
-        </div>
+  </div>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <!-- nav logo start-->
+    <a href="index.html" class="navbar-brand">
+      <img src="assets/images/voices-freedom-logo.png" alt="Voices of Freedom logo" height="60" />Voices of Freedom
+    </a>
+    <!-- nav logo ends-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About Us</a>
+        <a class="nav-link" href="stats.html">Stats and statistics</a>
+        <a class="nav-link" href="take-action.html">Take action</a>
       </div>
-      <button class="btn btn-outline-success my-2 my-sm-0" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Get in Contact</button>
-    </nav>
+    </div>
+    <button class="btn btn-outline-success my-2 my-sm-0" type="button" class="btn btn-primary" data-toggle="modal"
+      data-target="#exampleModal">Get in Contact</button>
+  </nav>
 
-    <!-- Header -->
-    <header id="hero">
-        <!-- section with hero image -->
-        <section id="hero-image" class="row">
-            <!-- text-center class used to centre all text inside column -->
-            <!--div class="col-12 text-center">-->
+  <!-- Header -->
+  <header id="hero">
+    <!-- section with hero image -->
+    <section id="hero-image" class="row">
+      <!-- text-center class used to centre all text inside column -->
+      <!--div class="col-12 text-center">-->
   </header>
   <!-- Main -->
   <main>
@@ -168,7 +139,8 @@
           </p>
         </div>
         <div class="col-12 col-md-6 mb-4">
-          <img src="assets/images/#" class="img-fluid" alt="Relevant Image" />
+          <img id="about-image" src="assets/images/human-trafficking-happens-here.jpg" class="img-fluid"
+            alt="Man holding up a sign among a crowd that reads ‘Human Trafficking Happens Here’" />
         </div>
       </div>
     </section>
@@ -180,7 +152,8 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card mb-3 sharp-corners">
-            <img src="assets/images/trafficking.jpeg" class="card-img-top fixed-image" alt="Lower half of two seated women, hands chained together, resting on their raised knees.">
+            <img src="assets/images/trafficking.jpeg" class="card-img-top fixed-image"
+              alt="Lower half of two seated women, hands chained together, resting on their raised knees.">
             <div class="card-body">
               <h3 class="card-title">Human Trafficking</h3>
               <p class="card-text">The recruitment, transportation, transfer, harboring, or receipt of
@@ -192,7 +165,8 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img src="assets/images/forced-labour.jpg" class="card-img-top fixed-image" alt="Woman in a factory wearing a mask with blurred colleagues in the background.">
+            <img src="assets/images/forced-labour.jpg" class="card-img-top fixed-image"
+              alt="Woman in a factory wearing a mask with blurred colleagues in the background.">
             <div class="card-body">
               <h3 class="card-title">Forced labour</h3>
               <p class="card-text">Situations where individuals are compelled to work against their will
@@ -203,7 +177,8 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img src="assets/images/debt-bondage2.jpg" class="card-img-top fixed-image" alt="Stacks of coins arranged in a stair-step pattern on a sheet of paper, with each stack increasing in height from left to right.">
+            <img src="assets/images/debt-bondage2.jpg" class="card-img-top fixed-image"
+              alt="Stacks of coins arranged in a stair-step pattern on a sheet of paper, with each stack increasing in height from left to right.">
             <div class="card-body">
               <h3 class="card-title">Debt Bondage</h3>
               <p class="card-text">A form of modern slavery where individuals are forced to work to repay
@@ -214,18 +189,20 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img src="assets/images/descend-base.jpg" class="card-img-top fixed-image" alt="A poor family sitting on a bench in front of a mud house, with an open door behind them">
+            <img src="assets/images/descend-base.jpg" class="card-img-top fixed-image"
+              alt="A poor family sitting on a bench in front of a mud house, with an open door behind them">
             <div class="card-body">
-              <h3 class="card-title">Descend-Based Slavery</h3>
-              <p class="card-text">A situation where people are born into slavery because their ancestors
-                were captured and enslaved; they remain in slavery by descent.</p>
+              <h3 class="card-title display-5">Descend-Based Slavery</h3>
+              <p class="card-text">Ensalavement of individuals due to their ancestors having
+                being captured and enslaved, resulting in their continued enslavement through lineage.</p>
               <a href="#" class="btn btn-outline-secondary">Read more</a>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img src="assets/images/child-slavery.jpg" class="card-img-top fixed-image" alt="Young girl carrying a basket of over her head">
+            <img src="assets/images/child-slavery.jpg" class="card-img-top fixed-image"
+              alt="Young girl carrying a basket of over her head">
             <div class="card-body">
               <h3 class="card-title">Child Slavery</h3>
               <p class="card-text">The exploitation of children through any form of work that deprives
@@ -236,7 +213,8 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="card mb-3">
-            <img src="assets/images/domestic-servitude.jpg" class="card-img-top fixed-image" alt="Man mopping the floor in a passage with cleaning trolley besides him">
+            <img src="assets/images/domestic-servitude.jpg" class="card-img-top fixed-image"
+              alt="Man mopping the floor in a passage with cleaning trolley besides him">
             <div class="card-body">
               <h3 class="card-title">Domestic Servitude</h3>
               <p class="card-text">A form of forced labour where individuals work in private households
@@ -248,69 +226,84 @@
       </div>
     </section>
     <!-- stories section-->
-    <section id="stories" class="container">
+    <section id="stories" class="col-12 col-md-10 container">
       <div class="row justify-content-center">
         <div id="survivor-carousel" class="carousel slide  col-12 col-lg-6" data-bs-ride="carousel">
-          <h2 class="display-5">Freedom stories</h2>
-          <div class="carousel-inner">
+          <h2 class="display-5 text-center">Freedom stories</h2>
+          <div class="cold-12 col-sm-8 col-md-3 carousel-inner">
             <!-- indicators - image count/progress-->
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="4" aria-label="Slide 5"></button>
-              <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carousel-captions" data-bs-slide-to="5"
+                aria-label="Slide 6"></button>
             </div>
             <!-- survivor stories -->
             <div class="carousel-item active" data-bs-interval="5000">
-              <img src="assets/images/survivorstory-aubree.png" class="img-fluid" alt="Smiling woman headshot with a slight head tilt">
+              <img src="assets/images/survivorstory-aubree.png" class=""
+                alt="Smiling woman headshot with a slight head tilt">
               <div class="carousel-caption-container w-100 text-center">
                 <p class="carousel-text">Aubree was trafficked for 10 years. Now, she helps others escape.</p>
-                <a href="https://polarisproject.org/survivor-story-aubree-alles/" class="btn btn-primary" target="_blank">Read More</a>
-              </div>
-            </div>
-            <div class="carousel-item active" data-bs-interval="5000">
-              <img src="assets/images/survivorstory-aubree.png" class="img-fluid" alt="Smiling woman headshot with a slight head tilt">
-              <div class="carousel-caption-container w-100 text-center">
-                <p class="carousel-text">Aubree was trafficked for 10 years. Now, she helps others escape.</p>
-                <a href="https://polarisproject.org/survivor-story-aubree-alles/" class="btn btn-primary" target="_blank">Read More</a>
+                <a href="https://polarisproject.org/survivor-story-aubree-alles/" class="btn btn-primary"
+                  target="_blank">Read More</a>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="assets/images/survivorstory-katherine.png" class="img-fluid" alt="Woman with right hand on cheek">
+              <img src="assets/images/survivorstory-katherine.png" class="img-fluid"
+                alt="Woman with right hand on cheek">
               <div class="carousel-caption-container w-100 text-center">
-                <p class="carousel-text">Katherine was manipulated into trafficking through addiction and control but is now safe.</p>
-                <a href="https://www.unseenuk.org/case-study/katherines-story/" class="btn btn-primary" target="_blank">Read More</a>
+                <p class="carousel-text">Katherine was manipulated into trafficking through addiction and control but is
+                  now safe.</p>
+                <a href="https://www.unseenuk.org/case-study/katherines-story/" class="btn btn-primary"
+                  target="_blank">Read More</a>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="assets/images/survivorstory-paula.png" class="img-fluid" alt="Headshot of a woman with a neutral expression.">
+              <img src="assets/images/survivorstory-paula.png" class="img-fluid"
+                alt="Headshot of a woman with a neutral expression.">
               <div class="carousel-caption-container w-100 text-center">
-                <p class="carousel-text">After enduring years of violence and exploitation, Paula is finally finding her voice and safety.</p>
-                <a href="https://www.unseenuk.org/case-study/paulas-story/" class="btn btn-primary" target="_blank">Read More</a>
+                <p class="carousel-text">After enduring years of violence and exploitation, Paula is finally finding her
+                  voice and safety.</p>
+                <a href="https://www.unseenuk.org/case-study/paulas-story/" class="btn btn-primary" target="_blank">Read
+                  More</a>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="assets/images/survivorstory-frank.jpg" class="img-fluid" alt="Man in a cap sitting on a chair, seen from behind.">
+              <img src="assets/images/survivorstory-frank.jpg" class="img-fluid"
+                alt="Man in a cap sitting on a chair, seen from behind.">
               <div class="carousel-caption-container w-100 text-center">
-                <p class="carousel-text">Lured to the UK with false promises, Frank endured forced labor until he and his son found safety.</p>
-                <a href="https://www.unseenuk.org/case-study/franks-story/" class="btn btn-primary" target="_blank">Read More</a>
+                <p class="carousel-text">Lured to the UK with false promises, Frank endured forced labor until he and
+                  his son found safety.</p>
+                <a href="https://www.unseenuk.org/case-study/franks-story/" class="btn btn-primary" target="_blank">Read
+                  More</a>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="assets/images/survivorstory-threebrothers.png" class="img-fluid" alt="Three men standing side by side, facing the camera, with one resting his hand on another's shoulder.">
+              <img src="assets/images/survivorstory-threebrothers.png" class="img-fluid"
+                alt="Three men standing side by side, facing the camera, with one resting his hand on another's shoulder.">
               <div class="carousel-caption-container w-100 text-center">
-                <p class="carousel-text">After 13 years of forced labor in a brick kiln, three brothers escaped debt bondage with government support.</p>
-                <a href="https://www.ijm.org/news/three-brothers-freed-from-slavery-over-fathers-debt" class="btn btn-primary" target="_blank">Read More</a>
+                <p class="carousel-text">After 13 years of forced labor in a brick kiln, three brothers escaped debt
+                  bondage with government support.</p>
+                <a href="https://www.ijm.org/news/three-brothers-freed-from-slavery-over-fathers-debt"
+                  class="btn btn-primary" target="_blank">Read More</a>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="assets/images/survivorstory-childslavery.png" class="img-fluid" alt="Three boys in a small boat, with one standing and holding a sack.">
+              <img src="assets/images/survivorstory-childslavery.png" class="img-fluid"
+                alt="Three boys in a small boat, with one standing and holding a sack.">
               <div class="carousel-caption-container w-100 text-center">
-                <p class="carousel-text">After being enslaved, these children were rescued and now have a chance at a real future.</p>
-                <a href="https://worldschildrensprize.org/slavechildrensstories" class="btn btn-primary" target="_blank">Read More</a>
+                <p class="carousel-text">After being enslaved, these children were rescued and now have a chance at a
+                  real future.</p>
+                <a href="https://worldschildrensprize.org/slavechildrensstories" class="btn btn-primary"
+                  target="_blank">Read More</a>
               </div>
             </div>
           </div>
@@ -325,91 +318,72 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </section>
-    </main>
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="row mt-3">
-          <!-- footer heading -->
-          <div class="col-sm-12 col-md-5 text-center mb-2">
-            <a href="index.html" class="navbar-brand">
-              <img
-                src="assets/images/voices-freedom-logo.png"
-                alt="Voices of Freedom logo"
-                height="60"
-              />Voices of Freedom
-            </a>
-          </div>
-          <!-- footer links -->
-          <div
-            class="col-sm-12 col-md-7 d-flex flex-column flex-md-row justify-content-center text-center"
-          >
-            <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="index.html">
-              Home
-            </a>
-            <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="about.html">
-              About Us
-            </a>
-            <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="stats.html">
-              Stats & Statistics
-            </a>
-            <a
-              class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3"
-              href="take-action.html"
-            >
-              Take Action
-            </a>
-            <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="#contact">
-              Contact
-            </a>
-          </div>
-        </div>
-        <!-- footer line break -->
-        <div class="mt-4 text-center">
-          <a href="#navbar" class="btn btn-secondary footer-arrow-button">
-            <i class="fas fa-arrow-up footer-arrow-icon"></i>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row mt-3">
+        <!-- footer heading -->
+        <div class="col-sm-12 col-md-5 text-center mb-2">
+          <a href="index.html" class="navbar-brand">
+            <img src="assets/images/voices-freedom-logo.png" alt="Voices of Freedom logo" height="60" />Voices of
+            Freedom
           </a>
-
-          <hr id="footer-line-break" />
         </div>
-        <div class="row text-center mt-4 mb-3">
-          <div
-            class="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center"
-          >
-            <p
-              class="footer-text mb-2 mb-md-0 mx-md-2 d-flex align-items-center"
-            >
-              © FreedomCoders 2025
-            </p>
-            <p class="footer-text mb-0 mx-md-2 d-flex align-items-center">
-              Website for educational purposes only
-            </p>
-          </div>
+        <!-- footer links -->
+        <div class="col-sm-12 col-md-7 d-flex flex-column flex-md-row justify-content-center text-center">
+          <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="index.html">
+            Home
+          </a>
+          <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="about.html">
+            About Us
+          </a>
+          <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="stats.html">
+            Stats & Statistics
+          </a>
+          <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="take-action.html">
+            Take Action
+          </a>
+          <a class="footer-links mx-2 mx-lg-3 mb-2 mb-md-0 mt-3" href="#contact">
+            Contact
+          </a>
+        </div>
+      </div>
+      <!-- footer line break -->
+      <div class="mt-4 text-center">
+        <a href="#navbar" class="btn btn-secondary footer-arrow-button">
+          <i class="fas fa-arrow-up footer-arrow-icon"></i>
+        </a>
+
+        <hr id="footer-line-break" />
+      </div>
+      <div class="row text-center mt-4 mb-3">
+        <div class="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center">
+          <p class="footer-text mb-2 mb-md-0 mx-md-2 d-flex align-items-center">
+            © FreedomCoders 2025
+          </p>
+          <p class="footer-text mb-0 mx-md-2 d-flex align-items-center">
+            Website for educational purposes only
+          </p>
         </div>
       </div>
     </div>
+    </div>
   </footer>
   <!-- Bootstrap JS Script-->
-    <script src="./assets/jscript/modal-mechanics.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-      crossorigin="anonymous"
-    ></script>
-    <script 
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    ></script>
+  <script src="./assets/jscript/modal-mechanics.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-  </body>
+</body>
+
 </html>
