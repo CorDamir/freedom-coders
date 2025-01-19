@@ -205,6 +205,28 @@ Apart from the direct references / links to other sources showcased on the deplo
 - **StopTheTraffik** - spot the signs of modern slavery quiz. [ [Link](https://stopthetraffik.org/can-you-spotthesigns/) ]
 - **UK Gov - National Crime Agency** - Modern Slavery and Human Trafficking information and spotting the signs of modern slavery. [ [Link](https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/modern-slavery-and-human-trafficking) ]
 
+Images were taken from different resources:
+
+- **National Crime Agency.** [Link](https://www.nationalcrimeagency.gov.uk/threats/nsa-modern-slavery-and-human-trafficking-2024)
+
+- **Google Images**
+
+## Agile Development Process
+
+**Agile Methodology**
+
+Our project uses Agile methodology, a framework that enables us to respond to the unpredictability of building software through incremental, iterative work cadences, known as sprints. This approach fosters adaptability and encourages a rapid and flexible response to change, which is vital in the dynamic environment of software development.
+
+At the start of each sprint, our team engages in sprint planning to set the direction for our upcoming work, involving prioritization of the product backlog to address the most critical tasks first, defining clear sprint goals aligned with project milestones, and assigning tasks based on expertise and workload. Throughout development, we navigate trade-offs between scope, quality, time, and resources to maintain a balance between delivering high-quality work efficiently and managing priorities. Adopting Agile methodologies allows us to remain adaptable and focused, ensuring we meet user needs while striving for excellence.
+
+**Collaboration Tools** 
+
+The team used Slack where we regularly hosted meetings and to message in for quick collaboration purposes and Github projects to track ideas, User Stories, Bugs and Time plan.
+
+The Team used Slack team channel to ensure everyone stayed updated on project progress and discussions.
+
+The Team used Google Documents to post ideas, wireframes and to store any information gathered for the project. [GoogleDoc](https://docs.google.com/document/d/1YvAS-RXjQaYDmuNbehmJxcsoWKRscpwTQT9ZDY2BMoU/edit?tab=t.0#heading=h.lvi0usp9ejgi)
+
 ## Deployment
 
 ### Deployment to GitHub Pages
