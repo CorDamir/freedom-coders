@@ -24,7 +24,7 @@ Resources and information included are from available sources online and have be
 
 ## Showcase
 
-![Am I Responsive?](/# "Am I Responsive? Website Mockup")
+![Am I Responsive?](docs/am-i-responsive-freedom-coders.png "Am I Responsive? Website Mockup")
 
 A **deployed link** to the live website can be found here -  [Voices of Freedom](https://cordamir.github.io/freedom-coders/)
 
