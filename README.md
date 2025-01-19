@@ -120,13 +120,13 @@ Users can learn more about the campaign and how prevalent an issue modern slaver
 
 ### Epic - Quiz
 
-5 - As a user, 
+5 - As a user, I want the option of opening an easy-to-use, interactive quiz to test my learning of the topic.
 
-6 - As a user, 
+6 - As a user, the quiz questions and answer options are clear and I know how to select and submit an answer.
 
-7 - As a user, 
+7 - As a user, I want to receive feedback that my answer is correct / incorrect, and my final score at the end.
 
-8 - As a user, 
+8 - As a user, I want the option of exiting or reseting the quiz at any time.
 
 ### Epic - About the team
 
