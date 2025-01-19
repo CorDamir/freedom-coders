@@ -156,6 +156,8 @@ These are the initial wireframes but they have evolved as the project has progre
 
 *Quiz page - it was decided that instead of a separate page for the quiz/zes, we would add them to the bottom of the info pages - e.g. Facts / Spot the Signs.
 
+A Statistics page was also added to provided additional content, and it was based on ideas from previous wireframes.
+
 ## **Design**
 
 ### **Logo**
