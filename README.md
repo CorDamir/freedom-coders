@@ -93,13 +93,13 @@ Users can learn more about the campaign and how prevalent an issue modern slaver
 
 ## Features (post MVP)
 
-1.
+1. Add functionality for the Contact Form so that the team can receive messages from users regarding website feedback to help improve the site.
 
 
-2.
+2. Further improve accessibility options to make the website more inclusive.
 
 
-3.
+3. Continue to add more interactive elements to the site to make the content more engaging.
 
 
 ## **User Stories**
