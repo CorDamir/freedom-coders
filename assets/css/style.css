@@ -154,6 +154,13 @@ h6 {
     margin: 15px 0;
     width: 100%;
 }
+
+#names-alert {
+    font-size: 80%;
+    font-style: italic;
+    font-weight: lighter;
+}
+
 /*-------------------------- image text */
 
 #hero-text {
