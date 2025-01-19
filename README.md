@@ -24,7 +24,7 @@ Resources and information included are from available sources online and have be
 
 ## Showcase
 
-![Am I Responsive?](/# "Am I Responsive? Website Mockup")
+![Am I Responsive?](docs/am-i-responsive-freedom-coders.png "Am I Responsive? Website Mockup")
 
 A **deployed link** to the live website can be found here -  [Voices of Freedom](https://cordamir.github.io/freedom-coders/)
 
@@ -120,19 +120,25 @@ Users can learn more about the campaign and how prevalent an issue modern slaver
 
 ### Epic - Quiz
 
-5 - As a user, 
+5 - As a user, I want the option of opening an easy-to-use, interactive quiz to test my learning of the topic.
 
-6 - As a user, 
+6 - As a user, the quiz questions and answer options are clear and I know how to select and submit an answer.
 
-7 - As a user, 
+7 - As a user, I want to receive feedback that my answer is correct / incorrect, and my final score at the end.
 
-8 - As a user, 
+8 - As a user, I want the option of exiting or reseting the quiz at any time.
 
 ### Epic - About the team
 
 9 - As a user, I can read about the team and why this website has been created, so that I can learn the story behind the site.
 
 10 - As a user, I can click to visit the Github pages for the developers that created the site, so that I can find out more about them and connect should I wish.
+
+### Epic - Main info / Statistics / Take Action
+
+11 - As a user, I want to see clear and reliable information about the topic of Modern Slavery and Human Trafficking.
+
+12 - As a user, I want to have access to more information and sources that are relevant to the topic, and support systems that are available to me.
 
 
 ## **Wireframes**
@@ -150,6 +156,8 @@ These are the initial wireframes but they have evolved as the project has progre
 
 *Quiz page - it was decided that instead of a separate page for the quiz/zes, we would add them to the bottom of the info pages - e.g. Facts / Spot the Signs.
 
+A Statistics page was also added to provided additional content, and it was based on ideas from previous wireframes.
+
 ## **Design**
 
 ### **Logo**
@@ -157,6 +165,10 @@ These are the initial wireframes but they have evolved as the project has progre
 ![Voices of Freedom Logo Image](docs/VoF-example-brand-logo-pair.png "Three arms raised in the air with a banner behind.")
 
 The logo was created using an icon by Ainnul Rofiq via [Flaticon](https://www.flaticon.com/authors/ainnul-rofiq)
+
+As the colour scheme developed, the logo and font colours were updated to provide better contrast ratios. Below is the final logo against the red background of the site:
+
+![Voices of Freedom Final Logo](docs/logo-red-background.png "Three arms raised in the air with a coloured banner behind.")
 
 
 ### **Typography**
@@ -238,6 +250,10 @@ Images were taken from different resources:
 - **National Crime Agency.** [Link](https://www.nationalcrimeagency.gov.uk/threats/nsa-modern-slavery-and-human-trafficking-2024)
 
 - **Google Images**
+
+- **Unsplashed**
+
+More details of the image sources can be found via our Design [Googledoc](https://docs.google.com/document/d/18TyiuB_eHoLyxC59aVLpWMi9PKFiX9MXydTDj1HbkuI/edit?tab=t.0#heading=h.pl46y8vtln40) through which we kept a record of our design sources.
 
 ## Agile Development Process
 
