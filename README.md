@@ -8,12 +8,17 @@
 
 **Overview**
 
+Voices of Freedom is an educational platform developed by FreedomCoders to raise awareness during **National Slavery and Human Trafficking Prevention Month 2025.** 
 
-*"Raising Awareness, Restoring Freedom"* 
+With **over 50 million people** affected globally, modern slavery and human trafficking remain urgent issues. Yet many are unaware of how to recognise signs of exploitation or take action.
 
-Voices of Freedom aims to highlight the important and prevalent issue of Modern Slavery and Human Trafficking during **National Slavery and Human Trafficking Prevention Month 2025**.
+Our platform sheds light on this critical topic by providing engaging **learning materials**, compelling **survivor stories** that inspire hope and awareness, and **practical ways** for users to join the fight against modern slavery. 
 
-This is a website created for Code Institute's *'Code to Protect'* hackathon of January 2025, and is for educational purposes only. 
+Visitors can explore a resources hub on our **Take Action** page, featuring charities, authorities, and helplines offering support and guidance. An **informative statistics** page and an **interactive quiz** further enhance learning and encourage reflection. At Voices of Freedom, we are driven by a unified purpose: 
+
+    "Raising Awareness, Restoring Freedom."
+
+This is a website created for **Code Institute's *'Code to Protect'* hackathon of January 2025**, and is for educational purposes only. 
 
 Resources and information included are from available sources online and have been actively referenced in the README.
 
