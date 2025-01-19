@@ -36,7 +36,7 @@ A **deployed link** to the live website can be found here -  [Voices of Freedom]
 [GitHub](https://github.com/tumelo-maja)
 
 **Sam**
-[GitHub](https://github.com/sam2829)
+[GitHub](https://github.com/sam2829) - [LinkedIn](https://www.linkedin.com/in/samuel-scarisbrick/)
 
 **Evanthia**
 [GitHub](https://github.com/evapalatou)
