@@ -246,17 +246,10 @@ h6 {
     padding: 80px 0 60px 0;
 }
 
-#take-action{
-    width: 400px;
-    height: 600px;
-    border-radius: 5px;
-}
-
 #action-subheader-image{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 60px;
 }
 
 #action-subheader-text{
@@ -264,6 +257,11 @@ h6 {
     align-items: center;
     text-align: center;
     text-transform: uppercase;
+}
+
+#take-action-sub-text{
+    min-width: 400px;
+    padding-bottom: 60px;
 }
 
 
