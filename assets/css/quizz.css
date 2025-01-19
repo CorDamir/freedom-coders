@@ -11,19 +11,21 @@
 }
 
 #quizz-question-container {
-    min-width: 400px;
+    min-width: 300px;
     width: 50%;
 }
 
 #answer-options-container {
     display: flex;
     flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
     margin-bottom: 20px;
     margin-top: 15px;
 }
 
 .answer-option {
-    flex: 40%;
+    flex: 48%;
     border: 1px solid black;
     display: flex;
     align-items: center;
@@ -41,9 +43,10 @@
 }
 
 #buttons-container {
-    margin: 7px;
+    width: 90%;
+    margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 #modal-container{
@@ -60,14 +63,16 @@
 
 #modal-quiz, #modal-quiz-end{
     user-select: none;
-    min-width: 400px;
+    overflow: scroll;
+    min-width: 300px;
     width: 50%;
     margin: auto;
     margin-top: 10%;
     padding: 20px;
     background-color: white;
-    box-shadow: white 0 0 10px; /* make it shine! */
+    box-shadow: #cd5353 0 0 15px;
     position: relative;
+    color: black;
 }
 
 #modal-quiz-end {
@@ -89,4 +94,10 @@
 
 .close-modal-button:hover{
     background-color: lightblue;
+}
+
+@media screen and (max-width: 750px) {
+    #answer-options-container {
+        display: block;
+    }
 }
