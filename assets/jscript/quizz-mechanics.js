@@ -2,21 +2,21 @@ var quizzQuestionsArray = []; //array of all question data
 var selectedQuestions = []; //array of unanswered questions indexes
 var correctAnswers = 0; //number of correct user answers
 
-function testingSampleInit() {
+function initQuestionsData() {
+    quizzQuestionsArray = [];
 
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < questionsRawData.length; i++) {
         let quizzQuestionData = {
             "question": "",
             "answers": [],
             "correct": null
         };
 
-        quizzQuestionData.question = "Sample question " + i;
-        quizzQuestionData.correct = Math.round(Math.random() * 3);
+        quizzQuestionData.question = questionsRawData[i];
+        quizzQuestionData.correct = correctRawData[i];
 
-        for (let y = 0; y < 4; y++) {
-            quizzQuestionData.answers.push("Sample answer as a big ass block of text yo" + i + "-" + y);
-        }
+        for (let y = 0; y < 4; y++)
+            quizzQuestionData.answers.push(answersRawData[i * 4 + y]);
 
         quizzQuestionsArray.push(quizzQuestionData);
     }
@@ -41,17 +41,24 @@ function displayQuestion(currentQuestion) {
     questionElement.innerText = quizzQuestionsArray[currentQuestion].question;
 
     let i = 0;
-    for (let q of quizzQuestionsArray[currentQuestion].answers) {
+    for (let q of quizzQuestionsArray[currentQuestion].answers)
         answerElements[i++].innerText = q;
-    }    
 }
 
 function endQuizz() {
-    alert(`Correct answers: ${correctAnswers}`);
+
+    let modal = document.getElementById("modal-quiz-end");
+    document.getElementById("modal-quiz").classList.toggle("hidden");
+
+    modal.firstElementChild.innerText = correctAnswers * 20;
+    modal.classList.toggle("hidden");
 }
 
 function handleSubmit() {
     document.getElementById("submit-button").disabled = true;
+    disableDivClick();
+
+    for (let radio of document.getElementsByName("answers-radio")) radio.disabled = true;
     document.getElementById("next-button").removeAttribute("disabled");
 
     let selectedAnswerElement = document.querySelector("input[type='radio']:checked");
@@ -64,7 +71,7 @@ function handleSubmit() {
     }
 
     let currentQuestion = selectedQuestions.shift();
-    let correct = quizzQuestionsArray[currentQuestion].correct + 1;
+    let correct = quizzQuestionsArray[currentQuestion].correct;
 
     if (answer == correct) {
         correctAnswers += 1;
@@ -77,15 +84,14 @@ function handleSubmit() {
 }
 
 function handleNext(){
-    if (!selectedQuestions.length) {endQuizz(); return} //on last question end quizz
-
     document.getElementById("next-button").disabled = true;
     document.getElementById("submit-button").removeAttribute("disabled");
 
+    for (let radio of document.getElementsByName("answers-radio")) 
+        radio.disabled = false;
+    
     document.querySelector("input[type='radio']:checked").checked = null;
-
-    displayQuestion(selectedQuestions[0]);
-    document.getElementById("submit-button").removeAttribute("disabled");
+    enableDivClick();
     
     let answerDivs = document.getElementsByClassName("answer-option")
 
@@ -93,12 +99,49 @@ function handleNext(){
         div.classList.remove("correct-answer");
         div.classList.remove("incorrect-answer");
     }
+
+    selectedQuestions.length ? displayQuestion(selectedQuestions[0]) : endQuizz();
+}
+
+function handleDivClick() {
+    this.firstElementChild.checked = true;
+}
+
+function enableDivClick() {
+    for (let div of document.getElementsByClassName("answer-option")) 
+        div.addEventListener("click", handleDivClick);
+}
+
+function disableDivClick() {
+    for (let div of document.getElementsByClassName("answer-option")) 
+        div.removeEventListener("click", handleDivClick);
+}
+
+function startQuiz(){
+    selectedQuestions = [];
+    correctAnswers = 0;
+
+    chooseRandomQuestions();
+    displayQuestion(selectedQuestions[0]);
+
+    document.getElementById("modal-container").classList.toggle("hidden");
+    document.getElementById("modal-quiz").classList.toggle("hidden");
+}
+
+function closeModal(){
+    this.parentElement.classList.toggle("hidden");
+    document.getElementById("modal-container").classList.toggle("hidden");
+}
+
+function enableCloseButton(){
+    for (let closeBtn of document.getElementsByClassName("close-modal-button"))
+        closeBtn.addEventListener("click", closeModal);
 }
 
 function initialSetup() {
-    testingSampleInit();
-    chooseRandomQuestions();
-    displayQuestion(selectedQuestions[0]);
+    enableCloseButton();
+    enableDivClick();
+    initQuestionsData();
 }
 
 window.onload = initialSetup();

@@ -1,4 +1,4 @@
-div {
+#answer-options-container > div {
     transition: all 1s ease-out;
 }
 
@@ -11,7 +11,6 @@ div {
 }
 
 #quizz-question-container {
-    /*border: 1px solid black;*/
     min-width: 400px;
     width: 50%;
 }
@@ -25,18 +24,15 @@ div {
 
 .answer-option {
     flex: 40%;
-    border: 1px solid blue;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 1px;
 }
 
 .answer-option > * {
     margin: 5px;
-}
-
-.answer-option > input {
-    margin-right: 5px;
 }
 
 #question {
@@ -57,10 +53,14 @@ div {
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 100%;
-    display: block;
 }
 
-#modal{
+.hidden{
+    display: none;
+}
+
+#modal-quiz, #modal-quiz-end{
+    user-select: none;
     min-width: 400px;
     width: 50%;
     margin: auto;
@@ -68,4 +68,26 @@ div {
     padding: 20px;
     background-color: white;
     box-shadow: white 0 0 10px; /* make it shine! */
+    position: relative;
+}
+
+#modal-quiz-end {
+    text-align: center;
+}
+
+.close-modal-button{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 110%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    user-select: none;
+    color: indianred;
+    font-weight: bold;
+}
+
+.close-modal-button:hover{
+    background-color: lightblue;
 }
