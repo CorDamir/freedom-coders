@@ -258,6 +258,48 @@ h6 {
 }
 
 
+/* -------------------------------stats page */
+
+.stats-h2 {
+    font-weight: 700;
+}
+
+.stats-h5 {
+    font-weight: 500;
+}
+
+.stats-images {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    border: 1px solid white; 
+}
+
+.signs-section {
+    background-color: lightgray;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    color: black;
+}
+
+.take-action-section {
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+}
+
+/* -------------------------------- error page */
+
+.error-page {
+    height: 40vh;
+}
+
+
 /*------------------------------------------Bootstrap breakpoint for tablet screens */
 @media screen and (min-width: 768px) {
 
@@ -315,45 +357,4 @@ h6 {
       #about-intro p {
         margin-bottom: 20px;
       }
-}
-
-/* -------------------------------stats page */
-
-.stats-h2 {
-    font-weight: 700;
-}
-
-.stats-h5 {
-    font-weight: 500;
-}
-
-.stats-images {
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    object-fit: cover;
-    border: 1px solid white; 
-}
-
-.signs-section {
-    background-color: lightgray;
-    border: 1px solid white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
-    font-weight: 700;
-    color: black;
-}
-
-.take-action-section {
-    border: 1px solid white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
-}
-
-/* -------------------------------- error page */
-
-.error-page {
-    height: 40vh;
 }
