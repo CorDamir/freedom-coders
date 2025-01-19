@@ -376,7 +376,7 @@ h6 {
     color: #230007;
 }
 
-input {
+.modal-body input {
     margin-bottom: 20px;
     width: 80%;
     border-color: #230007;
