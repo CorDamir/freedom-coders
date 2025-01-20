@@ -54,7 +54,8 @@ header {
 .btn-contact {
     color: white;
     border: 1px solid white;
-    background-color: #230007;
+    margin-left: auto;
+    order: 1;
 }
 
 .btn-contact:hover {
