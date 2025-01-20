@@ -208,6 +208,9 @@ The colour scheme was tested on a mock website as part of the planning process v
 - [FontJoy](https://fontjoy.com/) - used to generate visually appealing font pairings for  the website
 - [Realtime Colors](https://www.realtimecolors.com/?colors=ffffff-230007-A40606-D98324-D7CF07&fonts=Inter-Inter) - used to test colour scheme on a mock website
 - [AmIResponsive?](https://ui.dev/amiresponsive?url=https://tarahwaters.github.io/milestone-project2/) - used to create a mockup of the website
+- [Esprima](https://esprima.org/demo/validate.html) - used to validate JS syntax
+- [W3 HTML validator](https://validator.w3.org/nu/) - used to validate HTML
+- [W3 Jigsaw](https://jigsaw.w3.org/css-validator/validator) - used to validate CSS
 
 
 ## Credits
@@ -323,15 +326,15 @@ We have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-va
 
 | File | Jigsaw URL | Screenshot |
 | --- | --- | --- |
-| style.css | TBC | TBC |
-| quizz.css | TBC | TBC |
+| style.css | N/A | ![style.css validation screenshot](docs/validation-css-style.png) |
+| quizz.css | N/A | ![quizz.css validation screenshot](docs/validation-css-quizz.png) |
 
 #### JAVASCRIPT
 
-We have used the recommended [JShint Validator](https://jshint.com) to validate our JS file.
+We have used the recommended [Esprima](https://esprima.org/) to validate our JS file.
 
 | File | Screenshot | Notes |
 | --- | --- | --- |
-| modal-mechanics.js | to follow | to follow |
-| quiz-data.js | to follow | to follow |
-| quizz-mechannics.js | to follow | to follow |
+| modal-mechanics.js | ![modal mechanics JS validation screenshot](docs/validation-js-modal-mechanics.png)| passed |
+| quiz-data.js | ![quizz data JS validation screenshot](docs/validation-js-quizz-json.png) | passed |
+| quizz-mechannics.js | ![quizz mechanics JS validation screenshot](docs/validation-js-quizz-mechanics.png) | passed |
