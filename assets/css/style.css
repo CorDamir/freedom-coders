@@ -238,9 +238,8 @@ header {
 /*-------------------------- Take action section */
 
 #action-header {
-    padding-top: 90px;
+    padding-top: 48px;
     text-align: center;
-    font-size: 50px;
 }
 
 #action-subheader-container {
@@ -277,10 +276,16 @@ header {
 
 .accordian-btn {
     color: white;
+    width: 100%;
 }
 
 .accordian-text-bottom{
     padding-bottom: 15px;
+}
+
+.accordion > .card {
+    width: 85%;
+    margin: auto;
 }
 
 
