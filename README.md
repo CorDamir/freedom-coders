@@ -76,13 +76,11 @@ Users can learn more about the campaign and how prevalent an issue modern slaver
     
     There is also an expandable accordion featured which gives more information on how users can get involved e.g. training courses / how to donate to relevant charities / where to sign up to newsletters.
 
-4. **Quiz Mechanics** -
-
-5. **About Us Page** - 
+4. **About Us Page** - 
 
     This page showcases an image of each team member that contributed to the Voices of Freedom project and their general role. Buttons link to the team members' Github / LinkedIn pages for users to connect with the development team.
 
-6. **Get in Contact** - 
+5. **Get in Contact** - 
 
     The 'Get in Contact' button is accessible from the navbar of every page and also from the 'Contact' link via the footer. This opens up a modal Contact form where users can enter their details to provide feedback about the website. There are also signposts to appropriate UK authorities here that guide users to report a concern of modern slavery that they may have.
 
