@@ -42,6 +42,11 @@ header {
 }
 
 /*-------------------------- Colors */
+.btn-color {
+    background-color: rgb(148, 148, 148);
+    color: black;
+}
+
 .btn-color:hover {
     background-color: #D98324 !important;
 }
