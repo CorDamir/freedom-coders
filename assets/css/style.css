@@ -70,6 +70,12 @@ header {
     background-color: #A40606 !important;
 }
 
+.navbar-collapse {
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
 .navbar-brand {
     font-family: var(--title);
     color: #ffffff;
@@ -84,6 +90,7 @@ header {
 
 .navbar-toggler{
     background-color: white;
+    margin-right: 30px;
 }
 
 .navbar-nav a{
