@@ -59,6 +59,12 @@ header {
     order: 1;
 }
 
+.btn-contact-center {
+    color: white;
+    border: 1px solid white;
+    background-color: #230007;
+}
+
 .btn-contact:hover {
     background-color: #D7CF07;
 }
