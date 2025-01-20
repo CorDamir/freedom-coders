@@ -80,8 +80,7 @@ header {
 }
 
 #navbarNavAltMarkup a {
-    text-transform: uppercase;
-
+    text-transform: capitalize;
 }
 /*-------------------------- Hero image section */
 
