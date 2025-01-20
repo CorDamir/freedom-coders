@@ -110,6 +110,11 @@ header {
     font-weight: bold;
 }
 
+.card-body {
+    background-color: #d3cccd;
+    border: 1px solid #d3cccd;
+}
+
 /*-------------------------- stories section */
 
 .carousel-body {

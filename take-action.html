@@ -21,6 +21,7 @@
       crossorigin="anonymous"
     >
     <!-- Custom CSS stylesheet-->
+    <link rel="stylesheet" href="assets/css/quizz.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link
       rel="apple-touch-icon"
@@ -47,6 +48,47 @@
     >
   </head>
   <body>
+    <div id="modal-container" class="hidden">
+      <div id="modal-quiz-end" class="hidden">
+          You have scored <span></span>% on the quiz!
+          <span class="close-modal-button">X</span>
+      </div>
+
+      <div id="modal-quiz" class="hidden">
+              <div id="question"></div>
+
+              <div id="answer-options-container">
+                  <div class="answer-option">
+                      <input type="radio" id="1" name="answers-radio" checked>
+                      <label for="1" class="answer-text"></label> 
+                  </div>
+
+                  <div class="answer-option">
+                      <input type="radio" id="2" name="answers-radio">
+                      <label for="2" class="answer-text"></label>
+                  </div>
+
+                  <div class="answer-option">
+                      <input type="radio" id="3" name="answers-radio">
+                      <label for="3" class="answer-text"></label>
+                  </div>
+
+                  <div class="answer-option">
+                      <input type="radio" id="4" name="answers-radio">
+                      <label for="4" class="answer-text"></label>
+                  </div>
+              </div>
+
+              <div id="buttons-container">
+                  <span id="error-message"></span>
+                  <button id="submit-button" onclick="handleSubmit()">Submit</button>
+                  <button id="next-button" onclick="handleNext()" disabled>Next</button>
+              </div>
+
+              <span class="close-modal-button">X</span>
+      </div>
+  </div>
+
     <div id="ThankYouMessage"></div>
     <div
       class="modal fade"
@@ -194,7 +236,7 @@
                   <h5 class="card-title">Stay informed</h5>
                   <p class="card-text">Ending Human Trafficking and Slavery start with understanding the vulnerability of victims.
                     Staying knowledgable and up-to-date on ... is the first step you can take to prevent further Trafficking </p>
-                  <button class="btn btn-outline-secondary btn-color" type="button" data-toggle="modal" data-target="">Take our Quiz</button>
+                  <button class="btn btn-outline-secondary btn-color" type="button" data-toggle="modal" data-target="" onclick="startQuiz()">Take our Quiz</button>
                 </div>
               </div>
             </div>
@@ -505,5 +547,7 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/jscript/quiz-data.js"></script>
+    <script src="./assets/jscript/quizz-mechanics.js"></script>
   </body>
 </html>
