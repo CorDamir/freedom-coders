@@ -87,7 +87,7 @@ function handleSubmit() {
 
     try {
         answer = selectedAnswerElement.id;
-    } catch {
+    } catch (e) {
         document.getElementById("error-message").innerText = "Please select an answer.";
         return;
     }
