@@ -208,10 +208,24 @@ The colour scheme was tested on a mock website as part of the planning process v
 - [FontJoy](https://fontjoy.com/) - used to generate visually appealing font pairings for  the website
 - [Realtime Colors](https://www.realtimecolors.com/?colors=ffffff-230007-A40606-D98324-D7CF07&fonts=Inter-Inter) - used to test colour scheme on a mock website
 - [AmIResponsive?](https://ui.dev/amiresponsive?url=https://tarahwaters.github.io/milestone-project2/) - used to create a mockup of the website
+- [Esprima](https://esprima.org/demo/validate.html) - used to validate JS syntax
+- [W3 HTML validator](https://validator.w3.org/nu/) - used to validate HTML
+- [W3 Jigsaw](https://jigsaw.w3.org/css-validator/validator) - used to validate CSS
 
 
 ## Credits
+
+Images were taken from different resources:
+
 - [Flaticon logo - 'independency' icon](https://www.flaticon.com/authors/ainnul-rofiq) by Ainnul Rofiq accessible through Flaticon, free for usage with credit reference
+
+- **National Crime Agency.** [Link](https://www.nationalcrimeagency.gov.uk/threats/nsa-modern-slavery-and-human-trafficking-2024)
+
+- **Google Images**
+
+- **Unsplashed**
+
+More details of the image sources can be found via our Design [Googledoc](https://docs.google.com/document/d/18TyiuB_eHoLyxC59aVLpWMi9PKFiX9MXydTDj1HbkuI/edit?tab=t.0#heading=h.pl46y8vtln40) through which we kept a record of our design sources.
 
 ## References 
 
@@ -241,16 +255,6 @@ Apart from the direct references / links to other sources showcased on the deplo
 - **Unseen** - helpline hero campaign. [ [Link](https://www.unseenuk.org/get-involved/helpline-hero/) ]
 - **StopTheTraffik** - spot the signs of modern slavery quiz. [ [Link](https://stopthetraffik.org/can-you-spotthesigns/) ]
 - **UK Gov - National Crime Agency** - Modern Slavery and Human Trafficking information and spotting the signs of modern slavery. [ [Link](https://www.nationalcrimeagency.gov.uk/what-we-do/crime-threats/modern-slavery-and-human-trafficking) ]
-
-Images were taken from different resources:
-
-- **National Crime Agency.** [Link](https://www.nationalcrimeagency.gov.uk/threats/nsa-modern-slavery-and-human-trafficking-2024)
-
-- **Google Images**
-
-- **Unsplashed**
-
-More details of the image sources can be found via our Design [Googledoc](https://docs.google.com/document/d/18TyiuB_eHoLyxC59aVLpWMi9PKFiX9MXydTDj1HbkuI/edit?tab=t.0#heading=h.pl46y8vtln40) through which we kept a record of our design sources.
 
 ## Agile Development Process
 
@@ -310,11 +314,11 @@ We have used the recommended [HTML W3C Validator](https://validator.w3.org) to v
 
 | Page | W3C URL | Screenshot |
 | --- | --- | --- |
-|  Homepage | TBC | TBC |
-| About Us Page | TBC | TBC |
-| Statistics Page | TBC | TBC |
-| Take action Page | TBC | TBC |
-| Error 404 Page | TBC | TBC |
+|  Homepage | [Home W3C URL](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcordamir.github.io%2Ffreedom-coders%2Findex.html) | ![Home HTML validation screenshot](docs/validation-html-home.png) |
+| About Us Page | [About W3C URL]() | ![About HTML validation screenshot](docs/validation-html-about.png) |
+| Statistics Page | [Stats W3C URL]() | ![Stats HTML validation screenshot](docs/validation-html-stats.png) |
+| Take action Page | [Take Action W3C URL]() | TBC |
+| Error 404 Page | [Error 404 W3C URL](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcordamir.github.io%2Ffreedom-coders%2F404.html) | ![Error 404 HTML validation screenshot](docs/validation-html-404.png) |
 
 #### CSS
 
@@ -322,15 +326,15 @@ We have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-va
 
 | File | Jigsaw URL | Screenshot |
 | --- | --- | --- |
-| style.css | TBC | TBC |
-| quizz.css | TBC | TBC |
+| style.css | N/A | ![style.css validation screenshot](docs/validation-css-style.png) |
+| quizz.css | N/A | ![quizz.css validation screenshot](docs/validation-css-quizz.png) |
 
 #### JAVASCRIPT
 
-We have used the recommended [JShint Validator](https://jshint.com) to validate our JS file.
+We have used the recommended [Esprima](https://esprima.org/) to validate our JS file.
 
 | File | Screenshot | Notes |
 | --- | --- | --- |
-| modal-mechanics.js | to follow | to follow |
-| quiz-data.js | to follow | to follow |
-| quizz-mechannics.js | to follow | to follow |
+| modal-mechanics.js | ![modal mechanics JS validation screenshot](docs/validation-js-modal-mechanics.png)| passed |
+| quiz-data.js | ![quizz data JS validation screenshot](docs/validation-js-quizz-json.png) | passed |
+| quizz-mechannics.js | ![quizz mechanics JS validation screenshot](docs/validation-js-quizz-mechanics.png) | passed |
