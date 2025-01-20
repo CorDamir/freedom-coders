@@ -31,7 +31,7 @@ A **deployed link** to the live website can be found here -  [Voices of Freedom]
 ## Developers
 
 **Damir**
-[GitHub](https://github.com/CorDamir)
+[GitHub](https://github.com/CorDamir) - [LinkedIn](https://www.linkedin.com/in/damir-%C4%87ori%C4%87-03a166310/)
 
 **Tarah**
 [GitHub](https://github.com/tarahwaters) - [LinkedIn](https://www.linkedin.com/in/tarahwaters/)
@@ -40,16 +40,13 @@ A **deployed link** to the live website can be found here -  [Voices of Freedom]
 [GitHub](https://github.com/CassJBeckford) - [LinkedIn](https://www.linkedin.com/in/tarahwaters/)
 
 **Tumelo**
-[GitHub](https://github.com/tumelo-maja)
+[GitHub](https://github.com/tumelo-maja) - [LinkedIn](https://www.linkedin.com/in/tumelomaja27734694539/)
 
 **Sam**
 [GitHub](https://github.com/sam2829) - [LinkedIn](https://www.linkedin.com/in/samuel-scarisbrick/)
 
 **Evanthia**
-[GitHub](https://github.com/evapalatou)
-
-**Prajakta**
-[GitHub](https://github.com/PrajaktaSarnaik)
+[GitHub](https://github.com/evapalatou) - [LinkedIn](https://www.linkedin.com/in/evanthiapalatou/)
 
 ## Product Vision
 

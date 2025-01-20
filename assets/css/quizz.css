@@ -47,6 +47,12 @@
     margin: auto;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+}
+
+#error-message {
+    margin-right: 20px;
+    color: indianred;
 }
 
 #modal-container{

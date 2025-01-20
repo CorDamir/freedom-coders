@@ -88,10 +88,11 @@ function handleSubmit() {
     try {
         answer = selectedAnswerElement.id;
     } catch {
-        alert("Please select an answer");
+        document.getElementById("error-message").innerText = "Please select an answer.";
         return;
     }
 
+    document.getElementById("error-message").innerText = null;
     document.getElementById("submit-button").disabled = true;
     disableDivClick();
 
@@ -171,6 +172,7 @@ function disableDivClick() {
 function startQuiz(){
     selectedQuestions = [];
     correctAnswers = 0;
+    document.getElementById("error-message").innerText = null;
 
     chooseRandomQuestions();
     handleNext();

@@ -26,7 +26,7 @@ body {
 h1,
 h2 {
     font-family: var(--header-font);
-    font-weight: 300;
+    font-weight: 900;
 }
 
 h3,
@@ -42,13 +42,19 @@ header {
 }
 
 /*-------------------------- Colors */
+.btn-color {
+    background-color: rgb(148, 148, 148);
+    color: black;
+}
+
 .btn-color:hover {
-    background-color: #D98324 !important;
+    background-color: #A40606 !important;
 }
 
 .btn-contact {
     color: white;
     border: 1px solid white;
+    background-color: #230007;
 }
 
 .btn-contact:hover {
@@ -71,6 +77,15 @@ header {
 
 .navbar-links {
     color: white;
+}
+
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.navbar-nav a{
+    margin-right: 30px;
 }
 
 /*-------------------------- Hero image section */
@@ -110,7 +125,15 @@ header {
     font-weight: bold;
 }
 
+.card-body {
+    background-color: #d3cccd;
+    border: 1px solid #d3cccd;
+}
+
 /*-------------------------- stories section */
+.carousel-text {
+    font-weight:900;
+}
 
 .carousel-body {
     border-radius: 0.375rem;
@@ -219,10 +242,14 @@ header {
     background-color: #230007;
 }
 
+.footer-navbar-brand:hover {
+    color: #230007;
+}
+
 /*-------------------------- Take action section */
 
 #action-header {
-    padding-top: 90px;
+    padding-top: 48px;
     text-align: center;
 }
 
@@ -234,6 +261,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #action-subheader-text {
@@ -258,6 +287,16 @@ header {
 
 .accordian-btn {
     color: white;
+    width: 100%;
+}
+
+.accordian-text-bottom{
+    padding-bottom: 15px;
+}
+
+.accordion > .card {
+    width: 85%;
+    margin: auto;
 }
 
 
