@@ -48,9 +48,6 @@ A **deployed link** to the live website can be found here -  [Voices of Freedom]
 **Evanthia**
 [GitHub](https://github.com/evapalatou)
 
-**Prajakta**
-[GitHub](https://github.com/PrajaktaSarnaik)
-
 ## Product Vision
 
 **Voices of Freedom** was created to help prevent and spread awareness of **Modern Slavery and Human Trafficking** during **National Slavery and Human Trafficking Prevention Month 2025**.
