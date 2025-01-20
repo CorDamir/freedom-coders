@@ -337,4 +337,4 @@ We have used the recommended [Esprima](https://esprima.org/) to validate our JS 
 | --- | --- | --- |
 | modal-mechanics.js | ![modal mechanics JS validation screenshot](docs/validation-js-modal-mechanics.png)| passed |
 | quiz-data.js | ![quizz data JS validation screenshot](docs/validation-js-quizz-json.png) | passed |
-| quizz-mechannics.js | ![quizz mechanics JS validation screenshot](docs/validation-js-quizz-mechanics.png) | 1 error but tested, and does not seem significant |
+| quizz-mechannics.js | ![quizz mechanics JS validation screenshot](docs/validation-js-quizz-mechanics.png) | passed |
