@@ -89,6 +89,10 @@ header {
     font-size: x-large;
 }
 
+.navbar-brand:hover {
+    color: black;
+}
+
 .navbar-links {
     color: white;
 }
