@@ -54,6 +54,7 @@ header {
 .btn-contact {
     color: white;
     border: 1px solid white;
+    background-color: #230007;
 }
 
 .btn-contact:hover {
@@ -78,6 +79,10 @@ header {
     color: white;
 }
 
+#navbarNavAltMarkup a {
+    text-transform: uppercase;
+
+}
 /*-------------------------- Hero image section */
 
 
