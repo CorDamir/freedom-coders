@@ -43,7 +43,7 @@ header {
 
 /*-------------------------- Colors */
 .btn-color:hover {
-    background-color: #D98324 !important;
+    background-color: #A40606 !important;
 }
 
 .btn-contact {
@@ -75,6 +75,10 @@ header {
 
 .navbar-toggler{
     background-color: white;
+}
+
+.navbar-nav a{
+    margin-right: 30px;
 }
 
 /*-------------------------- Hero image section */
@@ -518,3 +522,4 @@ textarea {
 .link-button {
     width: 120px;
 }
+
