@@ -65,6 +65,10 @@ header {
     background-color: #230007;
 }
 
+.btn-contact-center:hover {
+    background-color: #D7CF07;
+}
+
 .btn-contact:hover {
     background-color: #D7CF07;
 }
