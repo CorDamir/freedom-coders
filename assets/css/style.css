@@ -62,6 +62,12 @@ header {
     background-color: #A40606 !important;
 }
 
+.navbar-collapse {
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
 .navbar-brand {
     font-family: var(--title);
     color: #ffffff;
