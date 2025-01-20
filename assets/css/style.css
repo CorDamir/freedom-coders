@@ -236,6 +236,7 @@ header {
 #action-header {
     padding-top: 90px;
     text-align: center;
+    font-size: 50px;
 }
 
 #action-subheader-container {
@@ -246,6 +247,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #action-subheader-text {
