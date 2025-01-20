@@ -315,7 +315,7 @@ We have used the recommended [HTML W3C Validator](https://validator.w3.org) to v
 |  Homepage | [Home W3C URL](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcordamir.github.io%2Ffreedom-coders%2Findex.html) | ![Home HTML validation screenshot](docs/validation-html-home.png) |
 | About Us Page | [About W3C URL]() | ![About HTML validation screenshot](docs/validation-html-about.png) |
 | Statistics Page | [Stats W3C URL]() | ![Stats HTML validation screenshot](docs/validation-html-stats.png) |
-| Take action Page | [Take Action W3C URL]() | TBC |
+| Take action Page | [Take Action W3C URL](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcordamir.github.io%2Ffreedom-coders%2Ftake-action.html) | ![Take Action HTML validation screenshot](docs/validation-html-take-action.png) |
 | Error 404 Page | [Error 404 W3C URL](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcordamir.github.io%2Ffreedom-coders%2F404.html) | ![Error 404 HTML validation screenshot](docs/validation-html-404.png) |
 
 #### CSS
