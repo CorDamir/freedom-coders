@@ -88,6 +88,7 @@ header {
 
 .navbar-toggler{
     background-color: white;
+    margin-right: 30px;
 }
 
 .navbar-nav a{
