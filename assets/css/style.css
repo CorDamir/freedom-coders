@@ -77,6 +77,10 @@ header {
     background-color: white;
 }
 
+.navbar-nav a{
+    margin-right: 30px;
+}
+
 /*-------------------------- Hero image section */
 
 
