@@ -42,6 +42,11 @@ header {
 }
 
 /*-------------------------- Colors */
+.btn-color {
+    background-color: rgb(148, 148, 148);
+    color: black;
+}
+
 .btn-color:hover {
     background-color: #A40606 !important;
 }
@@ -49,6 +54,7 @@ header {
 .btn-contact {
     color: white;
     border: 1px solid white;
+    background-color: #230007;
 }
 
 .btn-contact:hover {
@@ -72,6 +78,7 @@ header {
 .navbar-links {
     color: white;
 }
+
 
 .navbar-toggler{
     background-color: white;
@@ -517,4 +524,3 @@ textarea {
 .link-button {
     width: 120px;
 }
-
