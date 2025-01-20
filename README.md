@@ -323,8 +323,8 @@ We have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-va
 
 | File | Jigsaw URL | Screenshot |
 | --- | --- | --- |
-| style.css | TBC | TBC |
-| quizz.css | TBC | TBC |
+| style.css | N/A | ![style.css validation screenshot](docs/validation-css-style.png) |
+| quizz.css | N/A | ![quizz.css validation screenshot](docs/validation-css-quizz.png) |
 
 #### JAVASCRIPT
 
